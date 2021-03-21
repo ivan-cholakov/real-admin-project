@@ -1,0 +1,67 @@
+
+.dropDown :global(.ant-select) {
+    width:100%;
+    height:40px !important;
+    background: transparent;
+    text-align:center;
+    border-radius: 15px !important;
+    border-width: 0;
+    transition: all 0.6s;
+}
+.greyBackground :global(.ant-select) > div {
+    background-color:rgb(248,248,247) !important;
+}
+.dropDown :global(.ant-select) > div {
+    border-width: 0px;
+    border-radius:15px !important;
+    min-width:130px;
+    height:100%;
+}
+.dropDown :global(.ant-select) > div > div{
+    line-height:40px;
+}
+.dropDown :global(.ant-select-arrow) {
+    top: calc(50% + 2px);
+}
+.dropDown :global(.ant-select-selection-selected-value) {
+    width:100%;
+    text-align:left;
+    height:100%;
+    padding:0px 17px 0 8px;
+}
+.dropDown > div > div:hover, .dropDown > div > div:focus{
+    outline: none;
+    border-color: transparent;
+    box-shadow: 0 0 3px rgba(0,0,0,0.0);
+    border-right-width: 0 !important;
+    
+}
+
+.dropDown :global(.ant-select-selection__placeholder){
+    font-size: 16px;
+}
+.inline {
+    display:flex;
+    flex-direction: row;
+
+}
+.inline :global(.ant-select) {
+    min-width:120px;
+    width:unset;
+}
+.inline :global(.inputLabel) {
+    width:unset;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:0px;
+    margin-right:10px;
+}
+.inputLabel {
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    color: #575756;
+    font-size: 16px;
+    line-height: 16px;
+}

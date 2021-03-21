@@ -1,0 +1,44 @@
+.dividerIcon{
+    background: #15caaf;
+    border-radius: 50px;
+    position: relative;
+    z-index: 3;
+    width: 58px;
+    height: 58px;
+}
+
+.dividerTitle{
+    padding: 10px 0;
+    background: #15caaf;
+    border-radius: 15px;
+    width: 220px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    left: -25px;
+    position: relative;
+    height: 40px;
+    z-index: 2;
+    text-align: center;
+}
+
+.titleContainer, .dividerIcon, .dividerButtonWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.titleContainer, .dividerIcon{
+    flex-direction: column;
+}
+
+.dividerButtonWrapper{
+    flex-direction: row;
+}
+
+.dividerWrapper{
+    background-image: url(../../../assets/img/dividerBackground.png);
+    background-size: 3px;
+    background-repeat: repeat-x;
+    background-position: center;
+    margin: 25px 0 0;
+}

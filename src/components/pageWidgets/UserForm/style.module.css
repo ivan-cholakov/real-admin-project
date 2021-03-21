@@ -1,0 +1,56 @@
+.formContainer{
+    background: #f8f7f7;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+    opacity: 1;
+    margin-bottom: 50px;
+    transition: height 500ms 0ms, opacity 200ms 200ms;
+}
+.columnContainer{
+    width: 100%;
+    display: flex;
+    padding-top: 25px;
+    margin: 0 auto;
+    max-width: 580px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column:first-child{
+    margin-right: 35px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+:global(.hiddenForm){
+    transition: height 500ms 500ms, opacity 200ms 0ms;
+    opacity: 0.0;
+    height: 0px;
+    padding: 0;
+    margin-bottom: 0;
+    display: none;
+}
+
+.addButton > div{
+    margin: 0;
+    margin-right: auto;
+}
+.addButton{
+    width: 100%;
+}
+
+@media(max-width: 767px) {
+    .columnContainer {
+        display: block;
+    }
+    .labelContainer {
+    margin-top: 20px;}
+}

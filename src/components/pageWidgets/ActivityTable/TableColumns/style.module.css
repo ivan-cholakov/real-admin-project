@@ -1,0 +1,22 @@
+.textInput > div , .textInput input{
+    text-align: center;
+    max-height: 25px;
+    max-width: 70px;
+}
+
+.amcImage img{
+    width: 16px;
+    margin-left: 5px;
+}
+.batchId{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 90px;
+    display: block;
+    padding-right: 15px;
+}
+
+.ant-table-thead > tr {
+    background: transparent !important;
+}

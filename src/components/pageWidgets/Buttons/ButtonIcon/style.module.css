@@ -1,0 +1,12 @@
+.iconContainer {
+    display:inline-block; 
+    margin-right:5px;
+    stroke-width: 50;
+    stroke:currentColor;
+    font-size:12px;
+    height:12px;
+    position:relative;
+}
+.iconContainer > i {
+    vertical-align: unset !important;
+}

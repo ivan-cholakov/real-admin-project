@@ -1,0 +1,35 @@
+.contentWrapper {
+    margin-top:20px;
+    background:rgb(248,247,247);
+    min-height:280px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+}
+.innerContent {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(248,247,247);
+    border-radius: 15px;
+    padding: 11%;
+}
+
+.inputContainer {
+    width:300px;
+    margin-right:20px;
+}
+.btnContainer {
+    position:relative;
+    top:45px;
+    color:rgb(21,139,202);
+    margin-right:55px;
+}
+
+@media(min-width: 1025px) {
+    .innerContent {
+        margin-top: 50px;
+        min-height: 280px;
+    }
+}

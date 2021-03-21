@@ -1,0 +1,20 @@
+.contentContainer {
+    display:flex;
+    flex-direction: row;
+}
+.dropdownContainer {
+    width:415px;
+    margin-right:20px;
+}
+.btnContainer {
+    position:relative;
+    top:45px;
+    color:rgb(21,139,202);
+    margin-right:55px;
+}
+.ruleContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:200px;
+}

@@ -1,0 +1,11 @@
+:global(.ant-drawer-wrapper-body) {
+    /* background:rgb(248,247,247); */
+}
+:global(.ant-drawer-close) {
+    right:unset !important;
+    left:0;
+    color:#fff;
+}
+:global(.ant-drawer-close) i {
+    font-size:20px;
+}

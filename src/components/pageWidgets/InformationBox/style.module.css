@@ -1,0 +1,42 @@
+.boxContainer {
+    display:inline-block;
+}
+.innerBox {
+    height:125px;
+    font-weight:400;
+    border-radius:15px;
+    width:150px;
+    padding:20px 0px;
+    color:#A7A9AC;
+    background:#fff;
+    text-align:center;
+}
+.cash {
+    font-size:18px;
+    margin-bottom:7px;
+}
+.title {
+    color:#12caaf;
+    margin-bottom:10px;
+}
+.label {
+    margin-top:10px;
+    text-align:center;
+    font-size:11px;
+    color:rgb(87,87,86);
+}
+
+@media(max-width: 767px) {
+    .boxContainer {
+        display: flex;
+        align-items: center;
+        border: 1px solid #fefefe;
+        border-radius: 22px;
+        margin: 15px 0;
+    }
+    .label {
+        margin: 0;
+        padding: 15px;
+        font-size: calc(12px + 0.2vw);
+    }
+}

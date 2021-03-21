@@ -1,0 +1,8 @@
+.customerNumberContainer {
+    color: rgb(21,139,202);
+    font-size:15px;
+    font-weight:bold;
+}
+.customerNumberContainer span {
+    font-size:18px;
+}

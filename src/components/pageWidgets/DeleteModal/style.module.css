@@ -1,0 +1,35 @@
+.inputContainer {
+    margin-top:20px;
+    text-align: center;
+}
+
+.inputContainer img{
+    max-width: 90px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.deleteInfo {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.75px;
+}
+
+.columnContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column > div:first-child{
+    margin-bottom: 20px;
+}
+

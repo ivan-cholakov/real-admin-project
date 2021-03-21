@@ -1,0 +1,44 @@
+.datePickerContainer {
+    width:100%;
+}
+.datePickerContainer > span {
+    display:block;
+    width:100%;
+    top: 4px;
+    opacity: 1 !important;
+}
+.dropDownDate > div{
+    border-radius: 11px 11px 0 0;
+    top: 2px;
+}
+.dropDownDate input{
+    font-family: Montserrat;
+}
+
+:global(.datePicker):hover{
+    outline: none;
+    border-color: transparent;
+    box-shadow: 0 0 0 1px #ACACAC;
+    border-right-width: 0 !important;
+    transition: 0.6s;
+}
+.inputLabel {
+    font-weight: normal;
+    margin-bottom: 20px;
+    display:block;
+    width:100%;
+    color: #575756;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+:global(.ant-calendar-input ) {
+    box-shadow: none !important;
+}
+
+
+@media (max-width: 767px) {
+    .datePickerContainer > span {
+        max-width: 150px;
+    }
+}

@@ -1,0 +1,9 @@
+.fieldLabel {
+    font-size:0.8em;
+    text-transform: uppercase;
+    color:#bebebe;
+}
+.fieldValue {
+    font-size:1.1em;
+    margin-bottom:30px;
+}

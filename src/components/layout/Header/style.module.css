@@ -1,0 +1,137 @@
+.headerWrapper{
+    /* background:#242424; */
+    color:#12caaf;
+    text-align:center;
+    min-height:60px;
+    position:fixed;
+    top:0;
+    z-index:4;
+    font-size:1.4em;
+    width:100%;
+    transition:all 0.5s ease;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profileContainer {
+    display:flex;
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
+    height:60px;
+}
+.leftPart {
+    width:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.leftPartWrapper {
+    display:flex;
+}
+.profileContainer, .captionContainer, .companyLabel {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.middleHeader{
+    padding-left: 20px;
+    box-shadow: 3px 3px 4px #f0f1f2;
+    display:flex;
+    position:relative;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin:0px 10px; */
+    flex:1;
+    background-color: #fff;
+}
+.companyLabel {
+    text-transform:uppercase;
+    cursor:pointer;
+    z-index:10;
+    font-size:0.8em;
+    float:left;
+}
+.captionContainer {
+    text-transform: uppercase;
+    font-size:16px;
+    font-weight:bold;
+}
+.logoContainer img {
+    height:30px;
+
+}
+.menuIconContainer {
+    width:100px;
+    height:60px;
+    background:#12caaf;
+    transition:all 0.5s ease;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+.expanded {
+    width:230px;
+    display:block;
+    z-index: 1;  
+}
+.expanded > span {
+    position:absolute;
+    top:16px;
+    left:30px;
+}
+@media only screen and (max-width: 767px) {
+    
+    .menuIconContainer {}
+    .expanded > span {
+        position:relative;
+        left:80px;
+    }
+    .leftPart {
+        display:none;
+    }
+    .menuIconContainer {
+        width:60px;
+        background:none;
+    }
+    .expanded {
+        width:230px;
+    }
+    .expanded{
+        background:#12caaf;
+        /* transition-property: all 0.5s;
+        transform: translate(147px,0);
+        transition-delay:0.15s; */
+        
+    }
+    .middleHeader {
+        margin:0px;
+        padding: 0;
+    }
+    .headerWrapper {
+        box-sizing:border-box;
+        width:100%;
+        background-color: #fff;
+    }
+    .profileContainer {
+        width:60px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .captionContainer {
+        flex:1;
+        text-align: left;
+        text-indent: 10px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    :global(.expandedWrapper) .headerWrapper {
+        width: calc(100% + 230px);
+    }
+    
+    .expanded {
+        z-index:5;
+        width:230px !important;
+    }
+}

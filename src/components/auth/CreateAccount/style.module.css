@@ -1,0 +1,81 @@
+
+.pageWrapper input {
+    background-color:unset !important;
+    color:#fff !important;
+    border:none !important;
+    border-bottom:1px dotted !important;
+}
+input:focus{
+    border-top:none !important;
+}
+.inputWrapper {
+    text-transform: uppercase;
+    font-size:0.7em;
+    margin-bottom:30px;
+}
+.innerWrapperRight {
+    width:70%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+}
+.formContainer {
+    color:#fff !important;
+    font-size:1.1em;
+}
+.formContainer .ant-form-explain {
+    font-size:0.8em;
+}
+.innerWrapperRight h1{
+    text-transform: uppercase;
+    margin-bottom:30px;
+    font-size:0.8em;
+
+}
+.signBtn {
+    display:inline-block;
+    padding:5px 40px;
+    border-radius:20px;
+    line-height:30px;
+    cursor:pointer;
+    text-align:center;
+    transition:all 0.5s ease-in-out;
+    text-transform: uppercase;
+    font-size:0.8em;
+    background: #6BDDC9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6BDDC9, #6BDDC9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6BDDC9, #6BDDC9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.signBtn:hover {
+    background:#fff;
+    color:#111;
+}
+.linkWrapper {
+    font-size:0.8em;
+    margin-left:10px;
+    display:inline-block;
+    border-bottom: dashed 0.5px #bebebe;
+}
+.linkWrapper a {
+    color:#bebebe;
+    display:inline-block;
+    margin-top:10px;
+}
+.linkWrapper a:hover {
+    color:#fff;
+}
+.warningContainer {
+    color:red;
+    text-transform:uppercase;
+    font-size:1em;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+.warningField {
+    text-transform:uppercase;
+    font-size:1em;
+    color:orange;
+    display:block;
+}

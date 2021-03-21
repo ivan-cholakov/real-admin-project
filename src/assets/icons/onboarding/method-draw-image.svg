@@ -1,0 +1,41 @@
+<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="62" width="62" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+  <desc transform="matrix(6.8349784317547915,0,0,6.8349784317547915,0,0) ">Created with Sketch.</desc>
+  <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+  <desc transform="matrix(0.3233372072493381,0,0,0.3233372072493381,0,0) ">Created with Sketch.</desc>
+  <g stroke="null" id="svg_56">
+   <g stroke="null" transform="matrix(0.9854961993490898,0,0,0.9961517330913465,-66.6501563478068,-67.89255248112028) " fill-rule="evenodd" fill="none" id="svg_42">
+    <g stroke="null" id="svg_43">
+     <g stroke="null" id="svg_44">
+      <g stroke="null" id="svg_45">
+       <g stroke="null" fill-rule="nonzero" fill="#FFFFFF" id="svg_51">
+        <g stroke="null" id="svg_52">
+         <ellipse stroke="null" ry="10.267857" rx="9.821429" cy="85.980915" cx="96.417071" id="svg_54"/>
+         <path stroke="null" id="svg_53" d="m96.417071,98.927344c-9.862233,0 -17.857143,8.394655 -17.857143,18.75l35.714286,0c0,-10.355345 -7.99491,-18.75 -17.857143,-18.75z"/>
+        </g>
+       </g>
+       <g stroke="null" id="svg_46">
+        <circle stroke="null" r="11.278195" cy="113.025089" cx="117.23474" fill="#33425B" id="svg_50"/>
+        <g stroke="null" fill="#FFFFFF" id="svg_47">
+         <rect stroke="null" rx="0.93985" height="11.278196" width="1.879699" y="107.385992" x="116.294891" id="svg_49"/>
+         <path stroke="null" transform="rotate(-90 117.23475646972658,113.02507781982423) translate(-5.639098167419434,-5.639098167419434) " id="svg_48" d="m122.873839,113.02509l0,0c0.519064,0 0.939849,0.420785 0.939849,0.93985l0,9.398496c0,0.519065 -0.420785,0.93985 -0.939849,0.93985l0,0c-0.519065,0 -0.93985,-0.420785 -0.93985,-0.93985l0,-9.398496c0,-0.519065 0.420785,-0.93985 0.93985,-0.93985z"/>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

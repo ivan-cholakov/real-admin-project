@@ -1,0 +1,43 @@
+.productCard {
+    /* display:inline-block; */
+    width:250px;
+    min-height:450px;
+    display:flex;
+    flex-direction: column;
+    border-radius:20px;
+    justify-content: space-between;
+    padding:20px;
+    margin-top:20px;
+    box-shadow: 0px 2px 3px #ddd;
+}
+.productImageContainer img {
+    width:100%;
+}
+.infoRow {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rowData {
+}
+.productActions svg {
+    width:32px;
+    transition: all 0.5s;
+    height:32px;
+}
+.productActions {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.editIcon {
+    color:#00C0EF;
+}
+.deleteIcon {
+    color:red;
+}
+.editIcon:hover svg, .deleteIcon:hover svg{
+    cursor:pointer;
+    width:40px;
+    height:40px;
+}

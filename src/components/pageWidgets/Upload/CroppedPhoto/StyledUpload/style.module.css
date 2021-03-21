@@ -1,0 +1,25 @@
+.avatarContainer {
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    
+}
+.rectangle .avatarContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.avatarContainer > span {
+    background:#242424;
+}
+
+.avatarContainer:hover .imageOverlay{
+    z-index:1;
+    opacity:1;
+}
+
+.editProfileIconContainer svg {
+    width:18px;
+    height:18px;
+}

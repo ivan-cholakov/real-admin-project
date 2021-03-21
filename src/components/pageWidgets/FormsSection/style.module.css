@@ -1,0 +1,21 @@
+.sectionContentWrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing:content-box;
+    padding:50px;
+}
+.grey {
+    background-color:#f8f7f7;
+}
+.white {
+    background-color:#fff;
+    z-index:2;
+    position: relative;
+    border-top: solid 0.5px rgba(0,0,0,0.1);
+    box-shadow: rgba(0,0,0,0.1) 0px 11px 14px -10px;
+}
+@media (max-width: 767px) {
+    .sectionContentWrapper {
+        padding:45px 30px;
+    }
+}

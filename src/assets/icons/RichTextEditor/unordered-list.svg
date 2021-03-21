@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>unordered list</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-Brand-Filled-Hover" transform="translate(-1255.000000, -688.000000)">
+            <g id="ICONS" transform="translate(1017.000000, 685.000000)">
+                <g id="unordered-list" transform="translate(238.000000, 3.000000)">
+                    <circle id="Oval-Copy-2" fill="#575756" cx="1" cy="13" r="1"></circle>
+                    <circle id="Oval-Copy-2" fill="#575756" cx="1" cy="7" r="1"></circle>
+                    <circle id="Oval-Copy-2" fill="#575756" cx="1" cy="1" r="1"></circle>
+                    <g id="Group-2-Copy" transform="translate(4.000000, 12.000000)" stroke="#575756" stroke-linecap="square" stroke-width="1.5">
+                        <path d="M0,1 L9.88244739,1" id="Line-Copy-3"></path>
+                    </g>
+                    <path d="M4,7 L13.8824474,7" id="Line-Copy-4" stroke="#575756" stroke-width="1.5" stroke-linecap="square"></path>
+                    <path d="M4,1 L13.8824474,1" id="Line-Copy-5" stroke="#575756" stroke-width="1.5" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

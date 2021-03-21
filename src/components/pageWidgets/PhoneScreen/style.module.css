@@ -1,0 +1,79 @@
+.phoneWrapper {
+    width:380px;
+    margin-left: -25px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-3px);
+   }
+    100% {
+        transform: translateY(3px);
+   }
+}
+
+.phoneTop img, .phoneBottom img {
+    width:380px;
+    position: relative;
+}
+.phoneTop img {
+    position:relative;
+    top:50px;
+}
+.phoneBottom {
+    position: relative;
+}
+.contentContainer {
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    padding: 0px 20px;
+    width: 305px;
+    height: 428px;
+    overflow-y: scroll;
+}
+.expandedPhone { 
+    height:unset;
+    min-height:530px;
+}
+.fullContent {
+}
+.expandBtnContainer {
+    cursor:pointer;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform:lowercase;
+}
+.btnText {
+    margin-left:15px;
+    font-size:13px;
+    position:relative;
+    bottom:2px;
+    font-weight:bold;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    color:rgb(21,139,202);
+}
+.heightDiv {
+    background:url('../../../assets/img/phone-middle.png');
+    background-repeat:repeat-y;
+    background-size:contain;
+    position:relative;
+}
+
+@media(max-width: 767px) {
+    .phoneTop img, .phoneBottom img, .phoneWrapper,
+    .phoneTop, .phoneBottom  {
+        width:100%;
+    }
+    .phoneWrapper .contentContainer {
+        top: 188px;
+        left: 30px;
+        padding: 50px 20px;
+        width: 258px;
+        height: 422px;
+        font-size: 13px;
+    }
+}

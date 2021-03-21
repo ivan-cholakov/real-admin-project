@@ -1,0 +1,37 @@
+.select {
+    /* display:none; */
+    width:auto !important;
+    min-width:200px;
+}
+.select > div {
+     /* border-top: none;
+     border-left:none;
+     border-right:none; */
+     border:none;
+}
+.select > div:focus, .select > div:active {
+    box-shadow:none;
+}
+.select svg {
+    font-size:16px;
+    position:relative;
+    bottom:2.5px;
+    color: #111;
+}
+.selectorWrapper > div > div{
+    border-radius:5px;
+    position:relative;
+    /* background:rgba(0,0,0,0.04); */
+    filter: drop-shadow(4px 4px 4px #f0f0f0);
+    color:rgba(0,0,0,0.6);
+    width:100%;
+}
+.selectorWrapper > div > div > div > div {
+    width:100%;
+    text-align: left;
+}
+@media only screen and (max-width: 768px) {
+    .select {
+        min-width:250px;
+    }
+  }

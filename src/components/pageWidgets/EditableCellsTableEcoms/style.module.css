@@ -1,0 +1,81 @@
+.editable-cell {
+    position: relative;
+}
+
+.editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+}
+.deleteIcon{
+    max-width: 30px;
+}
+
+:global(.ant-table-thead) > tr > th{
+    padding: 4px;
+    font-size: 0.8em;
+    color: #bebebe;
+    background: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+:global(.tableRow){
+    display: block;
+    width: 372px;
+}
+
+:global(.tableRow) td, :global(.tableRow) td > div{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+:global(.tableRow) textarea{
+    width: 100%;
+    display: block;
+}
+
+:global(.tableRow) input{
+    text-align: left;
+}
+
+:global(.tableRow) input:hover, :global(.tableRow) input:focus{
+    box-shadow: none;
+}
+
+:global(.tableRow) td > div :global(.ant-select-selection__rendered){
+    margin-left: 0;
+}
+
+:global(.tableRow) td > div :global(.style_dropDown__LlLgw .ant-select-selection-selected-value){
+    padding-left: 0;
+    text-align: left;
+}
+:global(.tableRow) td > div :global(.ant-form-item-children) textarea{
+    padding: 3px;
+}
+:global(.tableRow) td > div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    vertical-align: middle;
+    text-align: left;
+}
+
+
+:global(.ant-table-tbody) tr td{
+    padding: 0;
+}
+
+:global(.ant-table-tbody) > tr:hover:not(:global(.ant-table-expanded-row)) > td{
+    background: #fff;
+}
+
+

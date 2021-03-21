@@ -1,0 +1,36 @@
+.statusLabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55px;
+    font-size: 10.5px;
+    letter-spacing: 0.44px;
+    text-align: center;
+    margin-top: 8px;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+
+.statusLabel :global(.activeIndicator), .statusLabel :global(.inactiveIndicator){
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border: solid 1px #979797;
+    border-radius: 50px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+:global(.activeIndicator){
+    background-color: #6dd400;
+}
+
+:global(.inactiveIndicator){
+    background-color: #f7b500;
+}
+
+@media(max-width: 767px) {
+    .statusLabel{
+        margin:0;
+    }
+}

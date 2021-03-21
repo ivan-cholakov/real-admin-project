@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>plus icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-Brand-Empty" transform="translate(-634.000000, -573.000000)" fill="#158BCA">
+            <g id="ADD-BRAND-LOGO-BTN" transform="translate(607.000000, 560.000000)">
+                <g id="Group" transform="translate(27.000000, 13.000000)">
+                    <g id="plus-icon">
+                        <path d="M7,0.692307692 L7,0.692307692 C7.55228475,0.692307692 8,1.14002294 8,1.69230769 L8,13.6923077 C8,14.2445924 7.55228475,14.6923077 7,14.6923077 L7,14.6923077 C6.44771525,14.6923077 6,14.2445924 6,13.6923077 L6,1.69230769 C6,1.14002294 6.44771525,0.692307692 7,0.692307692 Z" id="Rectangle" transform="translate(7.000000, 7.692308) rotate(90.000000) translate(-7.000000, -7.692308) "></path>
+                        <rect id="Rectangle" x="6" y="0.692307692" width="2" height="14" rx="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

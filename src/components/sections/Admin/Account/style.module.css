@@ -1,0 +1,163 @@
+.screenWrapper {
+    width:100%;
+    min-height:580px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #f8f7f7;
+    border-radius: 15px;
+    padding: 50px;
+}
+.btnContainer {
+    width: 180px;
+    height: 40px;
+}
+.companyInfo {
+    width:100%;
+}
+.innerContent {
+    width:100%;
+    max-width:580px;
+    margin:0 auto;
+    display:flex;
+    /* padding:20px;
+    padding-top:150px;
+    padding-bottom:50px; */
+}
+.titleContainer h1 {
+    color: #158bca;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight:500;
+}
+.titleContainer {
+    margin-bottom:25px;
+}
+
+.companyRow {
+    display:flex;
+    margin-top:10px;
+    flex-direction: row;
+}
+.left {
+    margin-right: 20px;
+    width: 350px;
+    max-width: 350px;
+}
+.left, .right {
+    flex:1;
+}
+.companyInfo .right {
+    display:flex;
+}
+.companyInfo .upload  {
+    display:flex;
+    flex:1;
+}
+.comapnyInfo .upload > div {
+    flex:1;
+}
+
+.addLogoContainer {
+    flex:1;
+}
+.descriptionContainer {
+    margin-top:25px;
+}
+.descriptionContainer textarea {
+    height: 150px;
+}
+.contactInformation {
+    margin-top:25px;
+    display:flex;
+    flex-direction: row;
+}
+.contactInformation .left {
+    width: 280px;
+    max-width: 280px;
+    margin-right: 25px;
+}
+.sectionWrapper {
+    margin-top:50px;
+}
+.contactInformation .right{
+    background-color: unset;
+    width: 100%;
+    max-width: 280px;
+}
+.vatNumberSection {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+}
+.vatNumberSection .left,
+.vatNumberSection .right {   
+    width: 270px;
+    max-width: 270px;
+}
+.vatNumberSection .left {
+    margin-right: 45px;
+}
+.sectionRow {
+    margin-top:25px;
+    display:flex;
+    flex-direction: row;
+}
+.sectionRow > div:not(:last-child) {
+    margin-right: 11px;
+}
+.formFooter {
+    display:flex;
+    margin-top:65px;
+    flex-direction:row;
+}
+.formFooter .left {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.formFooter .right {
+    flex:unset;
+    width:200px;
+}
+.formFooter .right > div {
+    margin-bottom:0px;
+}
+
+.inputLabel {
+    margin: 25px 0;
+}
+
+.accountCity input {
+    width: 195px;
+}
+.accountZip input {
+    width: 140px;
+}
+.accountCountry input {
+    width: 220px !important;
+}
+.accountEmail input {
+    width: 280px !important;
+}
+.accountCountry {
+    width: 100%;
+}
+
+/* .accountPhone input {
+    width: 150px !important;
+} */
+
+.rectangle_whiteBorder, .addCompanyLogo .right {
+    background-color: red;
+}
+
+@media (max-width: 767px) {
+    .titleContainer h1 {
+        margin-left: 0;
+    }
+    .innerContent {
+        padding-top: 50px;
+    }
+}
+

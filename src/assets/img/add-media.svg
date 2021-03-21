@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>add-media</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Add-New-Product" transform="translate(-1172.000000, -1111.000000)">
+            <g id="add-picture-btn-copy-2" transform="translate(1140.000000, 1111.000000)">
+                <g id="Group-4">
+                    <g id="Group-9">
+                        <g id="add-media" transform="translate(32.000000, 0.000000)">
+                            <circle id="Oval" fill="#d8d8d8" cx="50" cy="50" r="50"></circle>
+                            <path d="M49,30 L51,30 C51.5522847,30 52,30.4477153 52,31 L52,69 C52,69.5522847 51.5522847,70 51,70 L49,70 C48.4477153,70 48,69.5522847 48,69 L48,31 C48,30.4477153 48.4477153,30 49,30 Z" id="Rectangle" fill="#FFFFFF" transform="translate(50.000000, 50.000000) rotate(90.000000) translate(-50.000000, -50.000000) "></path>
+                            <rect id="Rectangle" fill="#FFFFFF" x="48" y="30" width="4" height="40" rx="1"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

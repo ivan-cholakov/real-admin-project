@@ -1,0 +1,85 @@
+.bubbleContainer {
+    width:135px;
+    height:135px;
+
+    border-radius:50%;
+    background-color:red;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    color:#fff;
+    text-align:center;
+}
+.txtContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.txtContainer > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.mediumTxt{
+    margin-left: 6px;
+    position: relative;
+    top: -3px;
+}
+.bigTxt {
+    font-size:1.6em;
+    font-weight:800;
+    text-transform: uppercase;
+    line-height: initial;
+}
+.smallTxt {
+    /* 139 194 188 */
+    font-size: 16px;
+    margin-top: 5px;
+}
+.green {
+    background:#12caaf;
+}
+.darkGreen {
+    background:rgba(139,194,188);
+}
+.brown {
+    background:rgba(217,181,121);
+}
+@media only screen and (max-width: 1200px) {
+    .bubbleContainer {
+        width:100px !important;
+        height:100px !important;
+    }
+    .bigTxt {
+        font-size:1.3em;
+    }
+    .smallTxt {
+        font-size:0.85em;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .bubbleContainer {
+        width:100px !important;
+        height:100px !important;
+    }
+    .bigTxt {
+        font-size:1.1em;
+    }
+    .smallTxt {
+        font-size:0.7em;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .bubbleContainer {
+        width:75px !important;
+        height:75px !important;
+    }
+    .bigTxt {
+        font-size:1em;
+    }
+    .smallTxt {
+        font-size:0.5em;
+    }
+}

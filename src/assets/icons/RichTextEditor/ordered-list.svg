@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="18px" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>ordered list</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Add-New-Product" transform="translate(-1290.000000, -1392.000000)">
+            <g id="ordered-list" transform="translate(1290.000000, 1391.000000)">
+                <polygon id="1" fill="#575756" fill-rule="nonzero" points="0.042 1.8 1.854 1.8 1.854 6 0.882 6 0.882 2.58 0.042 2.58"></polygon>
+                <path d="M1.566,11.208 L3.372,11.208 L3.372,12 L0.198,12 L0.198,11.37 L1.818,9.84 C2.19,9.486 2.256,9.27 2.256,9.066 C2.256,8.736 2.028,8.544 1.584,8.544 C1.224,8.544 0.918,8.682 0.714,8.964 L0.006,8.508 C0.33,8.034 0.918,7.728 1.674,7.728 C2.61,7.728 3.234,8.208 3.234,8.97 C3.234,9.378 3.12,9.75 2.532,10.296 L1.566,11.208 Z" id="2" fill="#575756" fill-rule="nonzero"></path>
+                <path d="M2.196,15.51 C2.952,15.63 3.336,16.098 3.336,16.716 C3.336,17.424 2.79,18.072 1.596,18.072 C1.008,18.072 0.402,17.91 -0.006,17.622 L0.372,16.878 C0.69,17.118 1.134,17.256 1.572,17.256 C2.058,17.256 2.358,17.058 2.358,16.716 C2.358,16.398 2.124,16.2 1.572,16.2 L1.128,16.2 L1.128,15.558 L1.992,14.58 L0.204,14.58 L0.204,13.8 L3.144,13.8 L3.144,14.43 L2.196,15.51 Z" id="3" fill="#575756" fill-rule="nonzero"></path>
+                <g id="Group-2" transform="translate(6.000000, 15.000000)" stroke="#575756" stroke-linecap="square" stroke-width="1.5">
+                    <path d="M0,1 L9.88244739,1" id="Line-Copy-3"></path>
+                </g>
+                <path d="M6,10 L15.8824474,10" id="Line-Copy-3" stroke="#575756" stroke-width="1.5" stroke-linecap="square"></path>
+                <path d="M6,4 L15.8824474,4" id="Line-Copy-3" stroke="#575756" stroke-width="1.5" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

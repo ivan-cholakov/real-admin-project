@@ -1,0 +1,85 @@
+.stockistWrapper {
+    max-width:1000px;
+    margin:0 auto;
+}
+.headingContainer h1{
+    right:unset;
+    text-align:center;
+}
+.contentContainer {
+    max-width: 680px;
+    margin:0 auto;
+}
+.innerContent > div{
+
+}
+.description {
+    color:rgb(224,224,224);
+    font-size:16px;
+    text-align:center;
+    margin-bottom:50px;
+    margin-top:50px;
+}
+.noMarginTop {
+    margin-top:unset;
+    margin-bottom:30px;
+}
+.btnContainer {
+    max-width:300px;
+    margin:0 auto;
+}
+.csvButton .btn {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.fileRow {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.inputContainer {
+    margin-right:25px;
+    max-width:400px;
+    width:100%;
+}
+.inputContainer input {
+    color:#12caaf !important;
+    text-transform:uppercase;
+    text-align:center;
+}
+.rightPart {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    padding-top:35px;
+    max-width:250px;
+}
+.rightPart .btn {
+    margin-bottom:10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.downloadBtn {
+    cursor:pointer;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 600;
+}
+.saveBtnContainer {
+    margin-top:50px;
+}
+.saveBtnContainer > div {
+    margin-bottom:unset !important;
+}
+.map {
+    margin-top:30px;
+    width:100%;
+    height:380px;
+    border-radius: 15px;
+}
+
+.map > div {
+    max-height: 380px;
+}

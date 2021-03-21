@@ -1,0 +1,14 @@
+{
+  "Connection": {
+    "API_HOST": "localhost",
+    "API_PORT": "8080",
+    "API_PROTOCOL": "http",
+    "API_VERSION": "/v1",
+    "API_URI": "/api",
+    "INSTAGRAM_AUTH": "/instagram/auth"
+  },
+  "instagramCredentials": {
+    "clientId": "4d77632a90d64a2cbae5567f55435fb8",
+    "redirectAddress": "http://localhost:3000"
+  }
+}

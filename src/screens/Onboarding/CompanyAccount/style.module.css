@@ -1,0 +1,139 @@
+.formWrapper{
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    padding: 50px 30px;
+    background: white;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    margin-top:35px;
+}
+
+.formContainer {
+    width: 580px;
+    margin: 0px auto;
+}
+
+.spacing {
+    width: 160px;
+}
+
+.section {
+    background-image: url(../../../assets/img/onboarding-bkg.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+    padding-bottom: 150px;
+}
+
+.formWrapper h2{
+    color: #158bca;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.formWrapper input{
+    text-align: left;
+}
+
+.columnContainer, .threeColumnContainer{
+    width: 100%;
+    display: flex;
+    margin-top: 35px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sectionWrapper:first-child{
+    margin-top: 0;
+}
+
+.sectionWrapper, .formFooter{
+    width: 100%;
+    display: block;
+    max-width: 580px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.current-step {
+    background: rgb(21, 202, 175);
+}
+
+.actionsWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.actionsWrapper .columnContainer{
+    justify-content: space-evenly;
+}
+
+.actionsWrapper .column{
+    max-width: 200px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.column33 {
+    width: 44%;
+}
+
+.column66 {
+    width: 100%;
+}
+
+.formFooter .column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.formFooter .column > div{
+    margin-bottom: 0;
+    margin: 0;
+    margin-left: auto;
+}
+
+.actionsWrapper :global(.whiteStyledButton){
+    text-transform: uppercase;
+    font-size: 13px;
+    max-width: 250px;
+}
+.column:first-child, .threeColumnContainer .column:nth-child(2){
+    margin-right: 25px;
+}
+
+.formFooter p{
+    margin-bottom: 0;
+    color: #158bca;
+    font-weight: bold;
+}
+
+.formFooter .column:last-child{
+    text-align: right;
+}
+
+.upload{
+    border: solid 2px #f8f7f7;
+    display: flex;
+    flex-direction: row;
+    min-width: 215px;
+    overflow: hidden;
+}
+
+

@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../../../../../assets/fonts/montserrat/Montserrat-Regular.otf');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../../../../../assets/fonts/montserrat/Montserrat-Regular.otf');
+}
+.balanceContainer {
+    color:rgb(87,87,86);
+    text-align:center;
+    font-weight:600;
+    margin-top:50px;
+    font-size:18px;
+}
+.money {
+    font-weight:400;
+}
+.coins > span {
+    display:inline-block;
+    margin-right:10px;
+    font-size:35px;
+}
+.coins {
+    margin-bottom:15px;
+}
+.contentContainer {
+    flex:1;
+    display:flex;
+    max-width:600px;
+    width:100%;
+    margin:0 auto;
+    flex-direction: column;
+    padding:50px 0px;
+    letter-spacing: 0.58px;
+    font-family:'Montserrat-Regular';
+}
+.line{
+    margin:50px 0px;
+    height:2px;
+    width:100%;
+    background:#fff;
+}
+.btnContainer {
+    max-width:185px;
+    width:100%;
+    margin:0 auto;
+    margin-top:50px;
+}
+.overview {
+    color:rgb(87,87,86);
+}
+.sectionTitle {
+    font-weight:500;
+    margin-bottom:25px;
+    font-size:16px;
+}
+.filters {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 0.67px;
+    font-family: 'Montserrat-Medium';
+    color: #000;
+}
+.calendar {
+    margin-right:50px;
+    width:175px;
+}
+.label {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-right:20px;
+    font-weight: 500;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+.boxesContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:25px;
+}
+.heading {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title {
+    font-size:16px;
+    color:rgb(87,87,86);
+}
+.tableContainer {
+    margin-top:30px;
+}
+
+@media(max-width: 767px) {
+    .boxesContainer {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:25px;
+    }
+    .calendar {
+        margin: 0;
+        width: 100%;
+    }
+    .label {
+        margin-top: 15px;
+    }
+    .filters {
+        display: inline-flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0 19%;
+    }
+}

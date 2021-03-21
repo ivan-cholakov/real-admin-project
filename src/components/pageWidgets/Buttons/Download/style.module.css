@@ -1,0 +1,12 @@
+.downloadBtn {
+    display:block;
+    margin:0 auto;
+    color:gray;
+    font-size:13px;
+    line-height:18px;
+}
+.downloadBtn > span {
+    display:inline-block;
+    margin-left:10px;
+    font-weight: 900;
+}

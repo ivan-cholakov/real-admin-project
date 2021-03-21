@@ -1,0 +1,60 @@
+.contentWrapper, .buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buttonContainer{
+    margin-top: 25px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    min-width:200px;
+    flex:1;
+}
+.third :global(.ant-select-selection--single) {
+    height: auto;
+}
+.third:not(:last-child){
+    margin-right:50px;
+}
+.greySquareFirst{
+    display: block;
+    width: 100%;
+    min-height: 130px;
+    background: rgb(235,235,235);
+    margin-top: 50px;
+}
+
+.greySquareOther{
+    display: block;
+    width: 100%;
+    min-height: 130px;
+    background: rgb(235,235,235);
+    min-width: 130px;
+    height: 100%;
+}
+
+.buttonContainer > div {
+    margin-right:10px;
+}
+@media only screen and (max-width: 1200px) {
+    .contentWrapper {
+        flex-direction: column;
+    }
+    .third {
+        width:300px;
+        margin:0px auto !important;
+        margin-bottom:20px !important;
+    }
+    .third:last-child {
+        margin-bottom:0px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .third {
+        width: 100%;
+    }
+}

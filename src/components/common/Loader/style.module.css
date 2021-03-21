@@ -1,0 +1,28 @@
+.loaderContainer {
+    min-height:100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loader {
+    border: 24px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 24px solid #8bc2bc;
+    width: 240px;
+    height: 240px;
+    margin:0 auto;
+    -webkit-animation: spin 1.3s linear infinite; /* Safari */
+    animation: spin 1.3s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

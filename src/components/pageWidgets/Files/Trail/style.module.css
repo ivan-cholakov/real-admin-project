@@ -1,0 +1,58 @@
+.screenWrapper {
+    max-width: 1000px;
+}
+.companyInfo {
+    width:100%;
+}
+.content {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    border-radius:15px;
+    margin:0 auto;
+}
+.titleContainer >h1 {
+    text-align:center;
+    color: #158bca;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.innerContent {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.greyHeading{
+    color: #a7a9ac;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 0.67px;
+}
+
+.btnContainer {
+    max-width:270px;
+    width:100%;
+    margin:0 auto;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.btn {
+    margin-top:50px;
+}
+@media(max-width: 767px) {
+    .formWrapper {
+        display: contents;
+    }
+    .coliumnsContainer {
+        display: block;
+    }
+}

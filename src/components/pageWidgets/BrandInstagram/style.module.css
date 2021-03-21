@@ -1,0 +1,19 @@
+.brandInstagramContainer {
+    max-width:435px;
+    height:250px;
+    width:100%;
+}
+.loaderContainer > div {
+    min-height: unset !important;
+}
+.loaderContainer > div > div {
+    height:120px;
+    width:120px;
+}
+.loaderContainer {
+    min-height:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(248,247,247);
+}

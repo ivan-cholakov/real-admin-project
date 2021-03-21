@@ -1,0 +1,20 @@
+.wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.range {
+    display: flex;
+    margin-top: -5px;
+    align-items: center;
+}
+.to {
+    position: relative;
+    top: 5px;
+    margin: 0px 20px
+}
+.button {
+    width: 180px;
+}

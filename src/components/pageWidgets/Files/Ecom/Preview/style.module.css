@@ -1,0 +1,59 @@
+.title {
+    font-size:16px;
+    margin-top:25px;
+    margin-bottom:20px;
+    color:rgb(87,87,86);
+}
+.editIconContainer {
+    margin-top:20px;
+    font-weight:400;
+    color:rgb(21,139,202);
+    font-size:14px;
+    line-height:14px;
+    transition:all 0.5s ease;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.editIconContainer:hover {
+    color:#12caaf;
+}
+.innerIcon {
+    cursor:pointer;
+}
+.editIconContainer svg {
+    position:relative;
+    top:3px;
+    height:14px;
+}
+.editIconContainer span {
+    display:inline-block;
+    margin-left:3px;
+}
+.websitesContainer {
+    height:200px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.imgContainer {
+    /* width:calc(50% - 2.5px); */
+    height: 220px;
+    width: 100%;
+}
+.imgContainer img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.modalContentContainer {
+    min-width:600px;
+}
+
+.counter {
+    padding:5px 0px;
+    text-align:center;
+    background:#fff;
+}

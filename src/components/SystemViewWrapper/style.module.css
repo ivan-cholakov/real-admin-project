@@ -1,0 +1,88 @@
+.screenWrapper {
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    min-height:100vh;
+    transition:all 0.5s ease;
+}
+:global(.expandedWrapper) {
+    width: calc(100% + 230px);
+    transition: all 500ms ease-in-out 0s;
+}
+.collapsedSideMenu {
+    width:100px;
+}
+.expandedSideMenu {
+    width:100px !important;
+    /*TODO */
+    min-width: 100px;
+    z-index:99;
+}
+.mainView {
+    width:100%;
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    /* padding:15px; */
+}
+.heading {
+    font-size:1.1em;
+}
+
+.innerContent {
+    display:flex;
+    flex-direction: column;
+    transition:all 0.2s ease;
+    transition-delay:0.3s;
+    flex:1;
+    justify-content: space-between;
+    width: 100%;
+}
+.screenContainer {
+    flex:1;
+    max-width:1000px;
+    margin:0 auto;
+    min-width: 100%;
+    min-width: -moz-available;
+    /* padding:20px; */
+    transition: all 500ms ease-in-out 0s;
+}
+.companySelectorContainer {
+    position:relative;
+    display:inline;
+}
+.topLevelContainer {
+    width:100%;
+    max-width:1080px;
+    padding:0px 40px;
+    box-sizing:border-box;
+    margin:30px auto;
+    /* position:absolute; */
+}
+.innerMain {
+    flex:1;
+    width:100%;
+    padding-top:58px;
+    margin:0 auto;
+    z-index: 3;
+    display:flex;
+    flex-direction: row;
+}
+.sideMenuContainer, .expandedSideMenu, .collapsedSideMenu {
+    transition:all 0.5s ease;
+    z-index: 99;
+}
+
+@media only screen and (max-width: 768px) {
+    .topLevelContainer {
+        display:none;
+    }
+    .sideMenuContainer {
+        width:0px;
+    }
+    .screenWrapper {
+    }
+    .screenContainer {
+        max-width: 100%;
+    }
+}

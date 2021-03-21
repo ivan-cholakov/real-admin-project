@@ -1,0 +1,59 @@
+h1{
+    color: #158bca;
+    font-size: 18px;
+}
+.radioWrapper :global(.ant-radio-group){
+    height:unset;
+}
+.radioContainer {
+    font-size:16px;
+    display:inline-flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-bottom: 0 !important;
+}
+.radioButton {
+    position:relative;
+}
+.multilineEl {
+    display:block;
+}
+
+.radioContainer :global(.ant-radio-wrapper){
+    padding:0px;
+    color:rgb(87,87,86);
+    line-height: 2.5;
+}
+/* .radioContainer :global(.ant-radio-wrapper) span {
+
+    font-size:16px !important;
+    line-height:16px;
+} */
+.radioContainer :global(.ant-radio-inner){
+    position:relative;
+    top:-1px;
+    border-width:2px;
+    border-color:rgb(87,87,86);
+    margin-right: 7px;
+}
+
+.radioContainer :global(.ant-radio-inner):after{
+    top:2px;
+    left:2px;
+    background-color:#12caaf;
+    transform: scale(1.6) !important;
+}
+.radioContainer :global(.ant-radio):hover :global(.ant-radio-inner){
+
+    border-color:#12caaf;
+}
+.description {
+    position:relative;
+    font-size:11px;
+    color:#575756;
+    padding-left: 32px;
+    text-transform: uppercase;
+    /* 16px width of button itself + 8px padding on text. */
+}
+
+

@@ -1,0 +1,15 @@
+.formField {
+    margin-bottom:25px;
+}
+.formField label {
+
+    color:rgb(87,86,87) !important;
+    font-weight: unset !important;
+}
+.row {
+    display:flex;
+    flex-direction: row;
+}
+.row > div:not(:last-child) {
+    margin-right:10px;
+}

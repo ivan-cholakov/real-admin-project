@@ -1,0 +1,111 @@
+.segmentationWrapper {
+    border-radius:15px;
+}
+.title {
+    font-size:16px;
+    color:rgb(87,87,86);
+    margin-bottom:15px;
+    font-weight: 400;
+}
+.cardsContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardsContainer > div:first-of-type{
+    border-top-left-radius: 15px;
+    padding: 17px;
+}
+.cardsContainer > div:nth-child(2){
+    border-left: 3px dotted white;
+    border-right: 3px dotted white;
+    padding: 17px;
+}
+.cardsContainer > div:last-of-type{
+    border-top-right-radius: 15px;
+    padding: 17px;
+}
+.averageAge {
+    color:rgb(21,202,175);
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.segmentationGraph {
+    padding:10px 20px;
+    box-shadow: 2px 4px 10px #ddd;
+    border-radius:15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 255px;
+}
+.age {
+    font-size:20px;
+    border-radius:50%;
+    padding:3px;
+    width:43px;
+    height:43px;
+    text-align:center;
+    background: rgb(21,202,175);
+    background: linear-gradient(309deg, rgba(21,202,175,1) 0%, rgba(21,139,202,1) 100%);
+}
+.ageLabel {
+    display:flex;
+    flex-direction: column;
+    margin-right:5px;
+    justify-content: center;
+    font-size: 13px;
+}
+.ageInner {
+    background:#fff;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:50%;
+    font-size: 25px;
+    white-space: pre;
+}
+.rowContainer {
+    display:flex;
+    flex-direction: row;
+    margin-bottom:15px;
+    justify-content: space-around;
+}
+.bar {
+    width:175px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+
+.count, .ageGroup {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: pre;
+}
+.ageGroup {
+    font-size:13px;
+    width: 60px;
+}
+.count {
+    font-size:10.5px;
+    width: 90px;
+}
+.loader {
+    height:100%;
+}
+.loader > div {
+    min-height:unset !important;
+    height:100%;
+}
+.loader > div > div {
+    width:120px;
+    height:120px;
+}

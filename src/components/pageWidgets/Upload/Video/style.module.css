@@ -1,0 +1,57 @@
+.uploadVideoContainer {
+    max-width:435px;
+    width:100%;
+    height:250px;
+}
+.inputContainer {
+    margin-top:20px;
+}
+.imageContainer {
+    width:100%;
+    height:100%;
+    cursor:pointer;
+    position: relative;
+}
+.imageContainer img {
+    width:100%;
+    height:100%;
+    border-radius: 15px;
+}
+.imageContainer:hover {
+    cursor: pointer;
+}
+.imageContainer:hover .btnContainerEdit {
+    -webkit-transition: opacity 1.3s ease-in-out;
+    -moz-transition: opacity 1.3s ease-in-out;
+    -ms-transition: opacity 1.3s ease-in-out;
+    -o-transition: opacity 1.3s ease-in-out;
+     opacity: 1;
+}
+.btnContainerEdit > span {
+    background:#fff;
+    color:rgb(224,224,224);
+    margin-right: 5px;
+    line-height: unset;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.btnContainerEdit {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:#e0e0e0;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s ease-out;
+    -moz-transition: opacity 0.4s ease-out;
+    -ms-transition: opacity 0.4s ease-out;
+    -o-transition: opacity 0.4s ease-out;
+    z-index: 10;
+    background-color: #12caaf;
+    border-radius: 20px;
+    padding-right: 15px;
+    height: 35px;
+    font-size: 12px;
+}

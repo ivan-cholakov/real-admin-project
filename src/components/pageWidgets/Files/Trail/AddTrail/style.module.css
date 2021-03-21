@@ -1,0 +1,72 @@
+.greyHeading{
+    color: #a7a9ac;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 0.67px;
+}
+
+.contentContainer {
+    flex:1;
+    padding:50px 0px;
+    display:flex;
+    background: #f8f7f7;
+    border-radius: 15px;
+    width:100%;
+    margin:0 auto;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.greyWrapper{
+    border-radius: 15px;
+    background: #f8f7f7;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+.contentWrapper{
+    width: 680px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btnContainer {
+    max-width:180px;
+    width:100%;
+    margin:0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 10.5px;
+}
+
+.btnContainer .btn {
+    height: 40px;
+}
+
+.inputWrapper{
+    width: 525px;
+    margin: 0 auto;
+    display: block;
+}
+
+:global(.hidden){
+    height: 0;
+    opacity: 0;
+}
+
+@media(max-width: 767px) {
+    /* .formWrapper {
+        display: contents;
+    }
+    .columnsContainer {
+        display: block;
+    } */
+    .contentWrapper {
+        display: contents;
+    }
+    .columnsContainer {
+        padding: 0 20px;
+    }
+}

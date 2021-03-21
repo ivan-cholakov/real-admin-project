@@ -1,0 +1,94 @@
+.profileWrapper {
+    cursor: pointer;
+    position:relative;
+    transition:all 0.5s ease;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+}
+.profileWrapper > div {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.profileWrapper .profileName {
+    display:inline-flex;
+    line-height:32px;
+    vertical-align:middle;
+}
+.profileWrapper .profileName i {
+    position:relative;
+    top:1px;
+    margin-left:3px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.unclickableProfileWrapper {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.unclickableProfileWrapper :global(.ant-avatar) {
+    border:0.5px solid rgb(87,87,86);
+}
+.unclickableProfileWrapper .profileName {
+    max-width:200px;
+}
+.popover {
+    min-width:100px;
+}
+.profileName {
+    color:rgb(87,87,86);
+    margin-left:2px;
+    font-size:14px;
+    line-height:32px;
+    vertical-align: middle;
+}
+.nameContainer {
+    max-width: 100%;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+    white-space: pre;
+    font-size: 15px;
+    letter-spacing: .62px;
+    padding-left: 15px;
+    text-overflow: unset;
+    margin-right: 10px;
+}
+.shinyProfile {
+    height:60px;
+    display:flex;
+    justify-content: center;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    background:rgba(0,0,0,0.15);
+    width: 300px;
+    transition: all 0.3s ease-in;
+}
+.fullHeight {
+    height:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+@media only screen and (max-width: 768px) {
+    .nameContainer {
+        display:none;
+    }
+    .profileWrapper :global(.ant-avatar) {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 12px;
+    }
+}
+@media (max-width:767px) {
+    .shinyProfile,
+    .profileWrapper {
+        max-width: 70px;
+    }
+}

@@ -1,0 +1,22 @@
+.userWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.userWrapper > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    color: #575756;
+}
+@media (max-width: 767px) {
+    .userWrapper > div {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+

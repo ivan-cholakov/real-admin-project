@@ -1,0 +1,23 @@
+.circlesContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:40px;
+}
+.title {
+    font-size:16px;
+    color:rgb(87,87,86);
+    margin-bottom:15px;
+    font-weight: 400;
+}
+.loader {
+    height:100%;
+}
+.loader > div {
+    min-height:unset !important;
+    height:100%;
+}
+.loader > div > div {
+    width:120px;
+    height:120px;
+}

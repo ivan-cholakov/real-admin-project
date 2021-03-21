@@ -1,0 +1,26 @@
+.rc-tree-treenode-switcher-close.tree-node {
+  /* background: red; */
+}
+
+.categories {
+  /* color: blue; */
+}
+
+.trst {
+  /* background-color: green; */
+}
+
+.rc-tree.categories {
+  /* background: blue; */
+}
+
+.new-btn {
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

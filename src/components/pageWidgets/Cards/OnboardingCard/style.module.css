@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../../../../assets/fonts/montserrat/Montserrat-SemiBold.otf');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../../../../assets/fonts/montserrat/Montserrat-Regular.otf');
+}
+
+.cardHolder {
+    width: 235px;
+}
+
+.onboardingCard {
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    max-width: 210px;
+    border-radius: 15px;
+    padding: 24px;
+    box-shadow: 2px 4px 10px #ddd;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.onboardingCard:hover {
+    transition: all 1s;
+    -webkit-transition: all 1s;    
+    background: rgb(51,66,91);
+}
+
+.iconBackground {
+    background: linear-gradient(180deg, rgba(21,139,202,1) 0%, rgba(21,202,175,1) 100%);
+    width: 90px;
+    min-height: 90px;
+    max-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 52px;
+}
+
+@keyframes shadowFloatCard {
+    0% {
+        box-shadow: 0 20px 40px lightgray;
+        transform: translateY(3px);
+        
+    }
+   50% {
+            box-shadow: 0 10px 10px darken(lightgray, 2.5%);;
+            transform: translateY(-1.5px);
+        }
+    100% {
+        box-shadow: 0 10px 10px darken(lightgray, 5%);;
+        transform: translateY(-3px);
+   }
+}
+
+.title {
+    color: rgb(21, 202, 175);
+    font-size: scalc(14px + 0.1vw);
+    letter-spacing: 0.75px;
+    margin-bottom: 50px;
+    margin-top: 26px;
+    font-family: 'Montserrat-SemiBold';
+    white-space: nowrap;
+}
+
+.cardDescription {
+    color: rgb(224,224,224);
+    font-size: 14px;
+    letter-spacing: 0.58px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 89px;
+    line-height: 20px;
+    font-family: 'Montserrat-Regular';
+    max-width: 210px;
+}
+
+@media (width: 1024px) {
+    .cardHolder {
+        width: 190px;
+    }
+    .onboardingCard {
+        height: 225px
+    }
+    .title {
+        font-size: 16px;
+    }
+    .iconBackground {
+        width: 90px;
+        min-height: 90px;
+        max-height: 90px;
+    }
+    .cardDescription {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:767px) {
+    .onboardingCard,
+    .cardDescription {
+        max-width: 100%;
+        margin-bottom: auto;
+    }
+}
+@media (min-width: 768px) {
+    .cardHolder:nth-of-type(n+2) {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .cardHolder {
+        margin-top: 20px;
+    }
+} 

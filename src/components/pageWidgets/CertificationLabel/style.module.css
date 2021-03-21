@@ -1,0 +1,64 @@
+.wrapper{
+
+}
+
+.certificationWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    padding: 15px 0px;
+    margin-bottom: 0px !important;
+}
+
+.certificationButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border-radius: 25px;
+    padding: 8px 25px;
+    color: #575756;
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    width: 320px;
+    margin-right: 26px;
+    text-transform: capitalize;
+    min-height: 45px;
+    max-height: 52px;
+    border: 1px solid #f9f8f8;
+    -webkit-box-shadow: 14px 11px 21px -14px rgba(0,0,0,0.16);
+    -moz-box-shadow: 14px 11px 21px -14px rgba(0,0,0,0.16);
+    box-shadow: 14px 11px 21px -14px rgba(0,0,0,0.16);
+}
+
+.certificationButton img{
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+}
+
+.certificationButton span{
+    flex-direction: column;
+    justify-content: center;
+    white-space: pre;
+    padding-left: 3px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: auto 0;
+}
+.deleteIcon {
+    align-self: center;
+    padding: 4px 7px;
+    transition: 0.6s;
+    width: 30px;
+    height: 30px;
+}
+.deleteIcon:hover {
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    transition: 0.6s;
+
+}

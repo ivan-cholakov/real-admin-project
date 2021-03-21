@@ -1,0 +1,24 @@
+.inputContainer {
+    margin-top:20px;
+}
+
+.columnContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column > div:first-child{
+    margin-bottom: 20px;
+}
+
+
+.modalFooter {
+    margin: 0 !important;
+}

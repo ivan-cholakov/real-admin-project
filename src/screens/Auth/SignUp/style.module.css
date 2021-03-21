@@ -1,0 +1,175 @@
+.pageWrapper {
+    min-height:100vh;
+    width:100%;
+    padding:0;
+    background: #d9b579;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d9b579, #d9b579);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d9b579, #d9b579); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#fff;
+    /* filter: brightness(75%); */
+}
+.pageWrapper h1,h2 {
+    color:#fff;
+}
+.innerWrapper {
+    width:70%;
+    margin:0 auto;
+    min-height:80vh;
+    display:flex;
+    flex-direction: row;
+    filter: drop-shadow(7px 30px 10px rgba(0,0,0,0.3));
+
+}
+.leftContainer, .rightContainer {
+    min-height:100%;
+    flex:1;
+}
+.leftContainer {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding:20px;
+    background: #6BDDC9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6BDDC9, #6BDDC9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6BDDC9, #6BDDC9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.rightContainer {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding:20px;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.headingsContainer {
+    text-align:center;
+}
+.headingsContainer h1 {
+    font-size:1.5em;
+    font-weight: bold;
+}
+.headingsContainer h2 {
+    font-size:1.1em;
+}
+.earthImg {
+    width:50%;
+    min-width:100px;
+    display:block;
+    margin:50px auto;
+    /* animation:spin 40s linear infinite; */
+}
+.pageWrapper input {
+    background-color:unset !important;
+    color:#fff !important;
+    border:none !important;
+    border-bottom:1px dotted !important;
+}
+input:focus{
+    border-top:none !important;
+}
+.inputWrapper {
+    text-transform: uppercase;
+    font-size:0.7em;
+    margin-bottom:30px;
+}
+.innerWrapperRight {
+    width:70%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+}
+.innerWrapperRight h1{
+    text-transform: uppercase;
+    margin-bottom:30px;
+    font-size:0.8em;
+
+}
+.signBtn {
+    display:inline-block;
+    padding:5px 40px 0px 40px;
+    border-radius:20px;
+    line-height:30px;
+    cursor:pointer;
+    text-align:center;
+    transition:all 0.5s ease-in-out;
+    text-transform: uppercase;
+    font-size:0.8em;
+    background: #6BDDC9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6BDDC9, #6BDDC9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6BDDC9, #6BDDC9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.signBtn:hover {
+    background:#111;
+    color:#fff;
+}
+.navContainer {
+    
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navTab {
+    /* display:inline-block; */
+    font-size:0.9em;
+    cursor:pointer;
+    padding:10px 20px 5px 20px;
+    background:rgb(35, 52, 83);
+    /* border-radius:20px; */
+    color:rgba(255,255,255,0.7);
+    transition:all 0.5s ease-out;
+}
+.navTab:hover{
+    color:#fff;
+    font-size:1em;
+}
+.leftTab {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.rightTab {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.activeTab {
+    /* color:#111 !important; */
+    background: #6BDDC9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6BDDC9, #6BDDC9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6BDDC9, #6BDDC9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+@media only screen and (max-width: 1200px) {
+    .innerWrapper {
+        width:80%;
+        min-height:80vh;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .innerWrapper {
+        width:90%;
+        min-height:80vh;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .innerWrapper {
+        width:95%;
+    }
+    .leftContainer {
+        flex:0.7;
+    }
+}
+@media only screen and (max-width: 678px) {
+    .leftContainer {
+        display:none;
+    }
+    .rightContainer {
+        border-radius:20px;
+    }
+}

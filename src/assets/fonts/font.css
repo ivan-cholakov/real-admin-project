@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'GothamBook';
+	src: url('./GothamBook.eot');
+	src: local('GothamBook'), url('./GothamBook.woff') format('woff'), url('./GothamBook.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Staatliches';
+	src: url('./Staatliches-Regular.ttf');
+	src: url('./Staatliches-Regular.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_10146">Text with this font applied</p> */
+.fontsforweb_fontid_10146 {
+	font-family: 'GothamBook' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

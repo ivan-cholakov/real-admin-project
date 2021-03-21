@@ -1,0 +1,31 @@
+.listWrapper {
+    background:rgb(248,247,247);
+    border-radius:15px;
+    padding: 8px 10px;
+}
+.rowWrapper {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px 20px;
+    margin-bottom:3px;
+    font-size:16px;
+    border-bottom:1px solid #fff;
+    line-height:18px;
+}
+.rowWrapper svg {
+    height:16px !important;
+}
+.leftPart {
+    display:flex;
+    flex-direction: row;
+}
+.value {
+    display:flex;
+    flex-direction: column;
+    margin-right:5px;
+    justify-content: center;
+}
+.scrollable {
+    overflow-y:scroll;
+}

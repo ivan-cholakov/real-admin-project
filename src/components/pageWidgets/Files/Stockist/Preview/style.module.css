@@ -1,0 +1,39 @@
+.title {
+    font-size:16px;
+    margin-top:25px;
+    margin-bottom:20px;
+    color:rgb(87,87,86);
+}
+.map {
+    width:100%;
+    height:220px;
+}
+.editIconContainer {
+    margin-top:20px;
+    font-weight:400;
+    color:rgb(21,139,202);
+    font-size:14px;
+    line-height:14px;
+    transition:all 0.5s ease;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.editIconContainer:hover {
+    color:#12caaf;
+}
+.innerIcon {
+    cursor:pointer;
+}
+.editIconContainer svg {
+    position:relative;
+    top:3px;
+    height:14px;
+}
+.editIconContainer span {
+    display:inline-block;
+    margin-left:3px;
+}
+.modalContentContainer {
+    min-width:700px;
+}

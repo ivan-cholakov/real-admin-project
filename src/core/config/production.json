@@ -1,0 +1,14 @@
+{
+  "Connection": {
+    "API_HOST": "bms.almond.org",
+    "API_PORT": "443",
+    "API_PROTOCOL": "https",
+    "API_VERSION": "/v1",
+    "API_URI": "/api",
+    "INSTAGRAM_AUTH": "/instagram/auth"
+  },
+  "instagramCredentials": {
+    "clientId": "4d77632a90d64a2cbae5567f55435fb8",
+    "redirectAddress": "https://bms.almond.org"
+  }
+}

@@ -1,0 +1,104 @@
+.tableContainer{
+    max-width:100vw;
+    min-width:1000px !important;
+    margin-top: 50px;
+}
+
+.tableUser tr td{
+    border-bottom-color: #fff;
+    height: 65px;
+    font-size: 13px;
+    padding: 0 15px;
+}
+
+.statusLabel {
+    margin-right: 0;
+}
+
+.tableUser tr td:hover{
+    cursor: pointer;
+}
+
+.tableUser tr td > div{
+    max-width: 90%;
+    overflow: visible;
+}
+
+.tableUser :global(.ant-input){
+    padding-left: 0
+}
+
+body .tableUser :global(.ant-table-tbody) tr:hover td{
+    background: transparent;
+}
+
+
+
+.userAvatar img {
+    max-width: 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.actions a{
+    margin-left: 10px;
+}
+.actions img {
+    display:inline-block;
+    width:20px;
+    height:20px;
+}
+
+.actions span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.actions{
+    display: flex;
+    flex-direction: row;
+}
+.actions img:first-child {
+    margin-right:20px;
+}
+
+@media(max-width: 767px) {
+    .tableUser tr td{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        height: 45px;
+    }
+    :global(.ant-table-tbody > tr) {
+        border-bottom: 1px solid #14caaf;
+        display: table-row;
+        font-size: 12px;
+    }
+    :global(.ant-table-tbody > tr td) {
+        padding: 15px;
+        padding-left: 0px !important;
+        text-align: left;
+    }
+    :global(.ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td) {
+        background: rgba(255,255,255,0.6);
+    }
+    .ant-table-tbody tr td:last-child {
+        width: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .actions img {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+    }
+    .tableUser tr td:first-child{
+        margin-top: 25px;
+    }
+    .tableUser tr td:last-child{
+        margin-bottom: 25px;
+    }
+}

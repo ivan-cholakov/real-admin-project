@@ -1,0 +1,9 @@
+.outerWrapper {
+    width:100%;
+    border-radius:15px;
+}
+.outerWrapper :global(.ant-upload){
+    width: 100%;
+    height:100%;
+    text-align: center;
+}

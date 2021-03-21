@@ -1,0 +1,120 @@
+:global(.ant-upload-list-item-error) {
+    border: 0.5px dashed rgb(87,87,86) !important;
+}
+.hidePreview :global(.ant-upload-select) {
+    display:none;
+}
+.uploadContainer :global(.ant-upload-list-picture-card .ant-upload-list-item-thumbnail img) {
+    object-fit: cover;
+}
+:global(.ant-upload-list-picture-card .ant-upload-list-item) {
+    float: left;
+    width: 41px;
+    height: 41px;
+    margin: 0 13px 0 0;
+    padding: 0;
+    border: none!important;   
+}
+.previewContainer {
+    width:100%;
+    margin-bottom:17px;
+    height:243px;
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: all 0.6s;
+}
+.previewContainer:hover {
+   box-shadow: 0 0 0 1px #ACACAC;
+   transition: all 0.6s;
+}
+.previewContainer img {
+    width:100%;
+    height:243px;
+    border-radius: 15px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.btnContainerEdit {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:#fff;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s ease-out;
+    -moz-transition: opacity 0.4s ease-out;
+    -ms-transition: opacity 0.4s ease-out;
+    -o-transition: opacity 0.4s ease-out;
+    z-index: 10;
+    background-color: #12caaf;
+    border-radius: 20px;
+    padding-right: 10px;
+    height: 35px;
+    border: 1px dotted #ececec;
+    font-size: 10px;
+    letter-spacing: 0.57px;
+    font-family: 'Montserrat-Medium';
+}
+.btnContainerEdit > span {
+    background:#fff;
+    color:rgb(224,224,224);
+    margin-right: 5px;
+    line-height: unset;
+    padding: 8px;
+    width: 35px;
+    height: 35px;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.uploadContainer :global(.ant-upload-list-item-info){
+    height: 100%;
+    width:100%;
+    border-radius: 5px;
+}
+.uploadContainer :global(.ant-upload-list-item){
+    width:41px;
+    height:41px;
+    margin:0px;
+    margin-right:13px;
+    padding:0px;
+    border:none !important;
+}
+
+.uploadContainer :global(.ant-upload-list-item-info > span) {
+    height:100%;
+}
+.uploadContainer :global(.ant-upload-select-picture-card){
+    width:41px;
+    box-sizing:content-box;
+    height:41px;
+}
+.uploadBtnContainer {
+    width:41px;
+    height:41px;
+    display:inline-block;
+}
+.uploadPhotosContainer {
+    width:100%;
+    border: 0;
+    max-width:435px;
+    border-radius: 15px;
+}
+.uploadContainer :global(.ant-upload){
+    width:100%;
+}
+
+.previewContainer:hover {
+    cursor: pointer;
+    overflow: hidden;
+}
+.previewContainer:hover .btnContainerEdit {
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+     opacity: 1;
+}

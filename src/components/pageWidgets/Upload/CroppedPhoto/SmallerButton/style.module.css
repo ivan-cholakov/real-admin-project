@@ -1,0 +1,43 @@
+.wrapper {
+    min-width: 210px;
+    width:100%;
+    height:80px;
+    border: 2px solid #fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btnContainer {
+    margin:0;
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btnContainer:hover .btnLabel, .btnContainer:hover .btnIcon{
+   color: #fff;
+}
+
+.btnLabel, .btnIcon{
+    color: #158bca;
+    font-weight: bold;
+    font-size: 10.5px;
+    transition: 0.5s;
+}
+
+.btnIcon{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.imgContainer {
+    cursor:pointer;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+.imgContainer img {
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}

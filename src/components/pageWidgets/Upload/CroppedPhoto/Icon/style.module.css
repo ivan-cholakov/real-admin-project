@@ -1,0 +1,16 @@
+.wrapper {
+    width:42px;
+    height:42px;
+    display:flex;
+    cursor:pointer;
+    flex-direction: column;
+    justify-content: center;
+    border:1px dashed #bebebe;
+    border-radius: 15px;
+}
+.iconContainer {
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: center;
+}

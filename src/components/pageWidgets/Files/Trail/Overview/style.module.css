@@ -1,0 +1,114 @@
+.balanceContainer {
+    color:rgb(87,87,86);
+    text-align:center;
+    font-weight:600;
+    font-size:18px;
+    margin-top:50px;
+}
+.money {
+    font-weight:400;
+}
+.coins > span {
+    display:inline-block;
+    margin-right:10px;
+    font-size:35px;
+}
+.coins {
+    margin-bottom:15px;
+    text-indent: 30px;
+
+}
+.contentContainer {
+    flex:1;
+    padding:100px 0px;
+    display:flex;
+    background: #f8f7f7;
+    border-radius: 15px;
+    max-width:1000px;
+    width:100%;
+    margin:0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.line{
+    margin:50px 0px;
+    height:2px;
+    width:100%;
+    background:#fff;
+}
+.btnContainer {
+    max-width:270px;
+    width:100%;
+    margin:0 auto;
+}
+
+.greyHeading{
+    color: #a7a9ac;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 0.67px;
+}
+
+.orSeparator{
+    text-align: center;
+    font-size: 16px;
+    color: #575756;
+    font-weight: 500;
+    margin: 25px 0;
+}
+
+.editContainer{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.editButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+@media(max-width: 767px) {
+    .editContainer {
+        width: 100%;
+    }
+    .contentContainer {
+        padding: 30px;
+    }
+}
+.existingFileInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.existingFileInput  > div {
+    width: 295px;
+    display: inline-block;
+}
+
+.existingFileInput .editButton > div {
+    height: 40px;
+    width: 125px;
+    font-size: 10.5px;
+}
+
+.butTrailCreate {
+    margin: 0 auto;
+}
+
+.butTrailCreate > div {
+    height: 40px;
+    width: 285px;
+    padding: 10px;
+    font-size: 10.5px;
+}
+
+.greyHeading {
+    margin-bottom: 50px;
+    font-weight: 400;
+}

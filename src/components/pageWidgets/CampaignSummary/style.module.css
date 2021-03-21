@@ -1,0 +1,15 @@
+.summaryWrapper {
+    display:flex;
+    flex-direction: column;
+    font-size: 16px;
+    letter-spacing: 0.67px;
+    color: rgb(87,87,86);
+    line-height: 1.5;
+
+}
+.title {
+    color:rgb(87,87,86);
+    font-size:16px;
+    margin-bottom:15px;
+    font-weight: 500;
+}

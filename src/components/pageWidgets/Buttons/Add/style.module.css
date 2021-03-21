@@ -1,0 +1,49 @@
+.button {
+    margin-bottom:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor:pointer;
+}
+
+.title {
+    padding-left:15px;
+    padding-right:10px;
+    display:inline-block;
+    flex-direction: column;
+    justify-content: center;
+    font-size:14px;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width:150px;
+}
+.leftPart svg {
+    margin: auto 0;
+    width:18px;
+    height:18px;
+    color:#158BCA;
+}
+.rightPart svg {
+    width:16px;
+    height:16px;
+    position:relative;
+    top:4px;
+    transition:all 0.3s;
+    stroke:#158BCA;
+}
+.rightPart, .leftPart {
+    display:flex;
+}
+.filledPlus {
+    display:none;
+}
+.button:hover svg, .button:hover {
+    color:#158BCA;
+}
+.button:hover .plusOutline {
+    display:none;
+}
+.button:hover .filledPlus {
+    display:inline;
+}

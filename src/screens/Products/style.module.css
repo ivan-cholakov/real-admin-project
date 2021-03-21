@@ -1,0 +1,10 @@
+.screenWrapper {
+    width:100%;
+}
+.addCompanyBtn {
+    float:right;
+    z-index:3;
+}
+.tableContainer {
+    /* margin-top:50px; */
+}

@@ -1,0 +1,17 @@
+.screenWrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.userInfo{
+    background: #f8f7f7;
+    padding: 50px 160px;    
+    border-radius: 15px;
+    margin-top: 50px;
+}
+@media(max-width: 767px) {
+    .userInfo {
+        padding: 25px;
+    }
+}
+

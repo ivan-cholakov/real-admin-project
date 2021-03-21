@@ -1,0 +1,51 @@
+image: node:10.15.0
+
+before_script:
+  # Install ssh-agent if not already installed, it is required by Docker.
+  # (change apt-get to yum if you use a CentOS-based image)
+  - "which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )"
+
+  # Run ssh-agent (inside the build environment)
+  - eval $(ssh-agent -s)
+
+  # Add the SSH key stored in SSH_PRIVATE_KEY variable to the agent store
+  - ssh-add <(echo "$PRIVATE_KEY")
+
+  # For Docker builds disable host key checking. Be aware that by adding that
+  # you are suspectible to man-in-the-middle attacks.
+  # WARNING: Use this only with the Docker executor, if you use it with shell
+  # you will overwrite your user's SSH config.
+  - mkdir -p ~/.ssh
+  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  - rm -rf node_modules/
+  - npm install
+
+stages:
+  - build
+
+build-deploy-staging:
+  stage: build
+  script:
+    - npm run build:staging
+    - scp -r build/* root@$STAGING_SERVER:/var/www/server-ui
+  only:
+    refs:
+      - staging
+
+build-deploy-qa:
+  stage: build
+  script:
+    - npm run build:qa
+    - scp -r build/* root@$QA_SERVER:/var/www/server-ui
+  only:
+    refs:
+      - qa
+
+build-deploy-production:
+  stage: build
+  script:
+    - npm run build
+    - scp -r build/* root@$PRODUCTION_SERVER:/var/www/server-ui
+  only:
+    refs:
+      - master

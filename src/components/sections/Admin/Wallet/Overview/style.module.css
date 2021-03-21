@@ -1,0 +1,38 @@
+.balanceContainer {
+    color:rgb(87,87,86);
+    text-align:center;
+    font-weight:600;
+    font-size:18px;
+    margin-top:50px;
+}
+.money {
+    font-weight:400;
+}
+.coins > span {
+    display:inline-block;
+    margin-right:10px;
+    font-size:35px;
+}
+.coins {
+    margin-bottom:15px;
+}
+.contentContainer {
+    flex:1;
+    padding:50px 0px;
+    display:flex;
+    max-width:600px;
+    width:100%;
+    margin:0 auto;
+    flex-direction: column;
+}
+.line{
+    margin:50px 0px;
+    height:2px;
+    width:100%;
+    background:#fff;
+}
+.btnContainer {
+    max-width:270px;
+    width:100%;
+    margin:0 auto;
+}

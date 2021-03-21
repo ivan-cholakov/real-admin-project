@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>image</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Onboarding-Add-New-Brand-Filled" transform="translate(-1362.000000, -689.000000)" fill="#575756" fill-rule="nonzero">
+            <g id="Group-5" transform="translate(1067.000000, 685.000000)">
+                <g id="image" transform="translate(295.000000, 4.000000)">
+                    <path d="M14.4,9.09494702e-13 L1.6,9.09494702e-13 C0.716,9.09494702e-13 0,0.7271875 0,1.625 L0,11.375 C0,12.2728125 0.716,13 1.6,13 L14.4,13 C15.284,13 16,12.2728125 16,11.375 L16,1.625 C16,0.7271875 15.284,9.09494702e-13 14.4,9.09494702e-13 Z M2.9024,9.9068125 L4.8944,7.3051875 C5.0512,7.1004375 5.3544,7.0955625 5.5176,7.2954375 L7.2,9.351875 L9.6784,6.108375 C9.84,5.8963125 10.156,5.8995625 10.3144,6.1140625 L13.12,9.9125 C13.3176,10.180625 13.1296,10.5625 12.8,10.5625 L3.2176,10.5625 C2.8848,10.5625 2.6976,10.1733125 2.9024,9.9068125 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

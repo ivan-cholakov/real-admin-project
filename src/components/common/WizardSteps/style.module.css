@@ -1,0 +1,59 @@
+.stepsWrapper {
+  width: 580px;
+  margin: 30px auto;
+}
+
+.step :global(.ant-steps-icon) > div {
+  background: rgb(216, 216, 216);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.step :global(.ant-steps-item-title) {
+    font-size: 15px;
+    letter-spacing: 0.62px;
+}
+
+.step :global(.ant-steps-icon) img {
+ width: 30px;
+ height: 30px;
+ margin: 25px;
+}
+
+.current-step :global(.ant-steps-icon) > div {
+ background: rgb(21, 202, 175);
+}
+
+.passed-step :global(.ant-steps-icon) > div {
+  background: rgb(87, 87, 86);
+  cursor: pointer;
+}
+
+.passed-step :global(.ant-steps-item-title) {
+  color: rgb(87, 87, 86) !important;
+}
+
+
+:global(.ant-steps-item-title) {
+ font-size: 13px;
+ margin-left: 5px;
+}
+
+:global(.ant-steps-item-content) {
+ width: 156px !important;
+}
+
+:global(.ant-steps-item-icon) {
+ margin-right: 0px !important;
+    margin-left: 40px !important;
+}
+
+:global(.ant-steps-item-tail) {
+ padding: 30px 0px !important;
+}
+
+.current-step :global(.ant-steps-item-title) {
+  color: rgb(21, 202, 175) !important;
+  font-weight: bold !important;
+
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="50px" viewBox="0 0 51 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Get-Started" transform="translate(-808.000000, -726.000000)">
+            <g id="Group-14" transform="translate(784.000000, 701.000000)">
+                <g id="Group-12" transform="translate(24.000000, 25.000000)">
+                    <g id="Group-6" fill="#FFFFFF" fill-rule="nonzero">
+                        <g id="Group-11" transform="translate(0.751880, 0.516917)">
+                            <ellipse id="Oval" cx="17.8571429" cy="10.2678571" rx="9.82142857" ry="10.2678571"></ellipse>
+                            <path d="M17.8571429,23.2142857 C7.99490969,23.2142857 0,31.6089409 0,41.9642857 L35.7142857,41.9642857 C35.7142857,31.6089409 27.719376,23.2142857 17.8571429,23.2142857 Z" id="Path"></path>
+                        </g>
+                    </g>
+                    <g id="Group-4" transform="translate(28.148496, 26.550752)">
+                        <circle id="Oval" fill="#33425B" cx="11.2781955" cy="11.2781955" r="11.2781955"></circle>
+                        <g id="Group-2" transform="translate(5.639098, 5.639098)" fill="#FFFFFF">
+                            <rect id="Rectangle" x="4.69924812" y="0" width="1.87969925" height="11.2781955" rx="0.939849624"></rect>
+                            <path d="M5.63909774,2.66453526e-15 L5.63909774,2.66453526e-15 C6.15816236,2.56918464e-15 6.57894737,0.42078501 6.57894737,0.939849624 L6.57894737,10.3383459 C6.57894737,10.8574105 6.15816236,11.2781955 5.63909774,11.2781955 L5.63909774,11.2781955 C5.12003313,11.2781955 4.69924812,10.8574105 4.69924812,10.3383459 L4.69924812,0.939849624 C4.69924812,0.42078501 5.12003313,2.75988588e-15 5.63909774,2.66453526e-15 Z" id="Rectangle" transform="translate(5.639098, 5.639098) rotate(-90.000000) translate(-5.639098, -5.639098) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

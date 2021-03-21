@@ -1,0 +1,86 @@
+body .autoComplete :global(.ant-select-auto-complete.ant-select) :global(.ant-input) {
+    text-align:left;
+    height:40px !important;
+    border-radius:15px;
+    border-width: 0;
+    width:100%;
+    font-size: 16px;
+    transition: all 0.6s;
+}
+
+body .autoComplete :global(.ant-select-auto-complete.ant-select){
+    height:40px !important;
+    border-radius:15px;
+    font-size: 16px;
+    width: 100%;
+    transition: 0.6s;
+}
+
+.autoComplete i {
+    position: absolute;
+    float: right;
+    margin-left: -30px;
+    margin-top: 13px;
+}
+
+body .autoComplete :global(.ant-select-auto-complete.ant-select) :global(.ant-select-selection__rendered){
+    line-height: 40px;
+    transition: all 0.6s;
+}
+
+:global(.ant-select:hover){
+    box-shadow: 0 0 0 1px #ACACAC;
+    transition: all 0.6s;
+}
+
+.autoComplete :global(.ant-select-selection){
+    border-radius:15px !important;
+}
+.autoComplete {
+    width:100%;
+    position: relative;
+}
+.autoComplete input:focus {
+    outline:none !important;
+}
+.inputLabel {
+    margin-bottom: 20px;
+    display:block;
+    width:100%;
+    color: #575756;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+}
+.grayColor :global(.ant-select) {
+    background: #f8f7f7 !important;
+}
+.grayColor input, .grayColor :global(.ant-select-selection){
+    background: transparent;
+}
+.inline {
+    flex-direction: row;
+    margin-bottom:10px;
+    display:flex;
+}
+.inline .inputLabel {
+    display:inline-flex;
+    width:unset;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:5px;
+}
+.inline input {
+    width:unset;
+    margin-right:10px;
+}
+.autoComplete :global(.ant-select-auto-complete.ant-select) :global(.ant-input:hover), .autoComplete :global(.ant-select-auto-complete.ant-select) :global(.ant-input:focus) {
+    border-right-width: 0 !important;
+    box-shadow: 0 0 0 1px #ACACAC;
+    outline:none !important;
+    border-width: 0;
+    transition: 0.6s;
+}
+.autoComplete :global(.ant-select-show-search):hover{
+    box-shadow: 0 0 0 1px #ACACAC;
+}

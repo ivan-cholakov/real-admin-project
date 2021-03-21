@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../../../assets/fonts/montserrat/Montserrat-SemiBold.otf');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../../../assets/fonts/montserrat/Montserrat-Regular.otf');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../../../assets/fonts/montserrat/Montserrat-Medium.otf');
+}
+
+.formWrapper input, .formWrapper textarea{
+    border:none !important;
+}
+input:focus{
+    border-top:none !important;
+}
+
+.warningField {
+    text-transform:uppercase;
+    font-size:1em;
+    color:orange;
+    display:block;
+}
+.fieldLabel {
+    text-transform:uppercase;
+    font-size:0.9em;
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: #575756;
+}
+/* .submitBtn {
+    display:block;
+
+    width:90%;
+    margin:10px auto;
+} */
+.submitBtn {
+    display:block;
+    color: #fff;
+    text-transform: uppercase;
+    background: #39CCCC;
+    width: 100%;
+    margin-top:20px;
+    padding: 10px !important;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
+    cursor:pointer;
+    transition:all 1s;
+    text-align:center;
+}
+.submitBtn:hover {
+    color: #fff;
+    background:#000;
+}
+
+.columnContainer{
+    width: 100%;
+    display: flex;
+    padding-top: 25px;
+    margin: 0 auto;
+    max-width: 580px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column:first-child{
+    margin-right: 35px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.formWrapper h2{
+    font-size: 35px;
+    letter-spacing: 1.46px;
+    font-weight: 500;
+    color: #575756;
+    text-align: center;
+    font-family: 'Montserrat-SemiBold';
+}
+
+.formWrapper p:nth-of-type(1) {
+    font-size: 17px;
+    letter-spacing: 0.71px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 24px;
+    font-family: 'Montserrat-Medium';
+}
+.formWrapper p:nth-of-type(2) {
+    font-size: 16px;
+    letter-spacing: 0.67px;
+    text-align: center;
+    margin: 25px 0px;
+    font-family: 'Montserrat-Regular';
+}
+
+.permissionWrapper h3{
+    font-size: 16px;
+    letter-spacing: 0.67px;
+    color: #575756;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: 'Montserrat-SemiBold';
+}
+
+.permissionList li{
+    list-style: none;
+    font-size: 16px;
+    color: #575756;
+    letter-spacing: 0.67px;
+    line-height: 1.5;
+    font-weight: normal;
+;
+}
+.permissionList{
+    padding-left: 0;
+}
+
+.permissionList li:before{
+    content: "-";
+    margin-right: 5px;
+}
+
+.permissionWrapper{
+    background: #fff;
+    padding: 25px 50px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.formWrapper{
+    padding: 0px 45px 30px 45px;
+    background: #f8f7f7;
+    margin-top: -85px;
+}
+
+.formWrapper :global(.ant-select-selection-selected-value){
+    text-align: left;
+}
+
+.passwordWrapper{
+    padding: 20px 50px 20px 50px;
+    background: #fff;
+    transition: height 500ms 0ms, opacity 200ms 200ms;
+    opacity: 1;
+}
+
+.passwordButton{
+    padding: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #575756;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+    max-width: 260px;
+    height: 55px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    letter-spacing: 0.67px;
+    font-family: 'Montserrat-SemiBold';
+}
+
+.formWrapper .editButtonProfile {
+    padding: 35px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+    color: rgb(167, 169, 172);
+    font-size: 15px;
+    letter-spacing: 0.62px;
+    max-width: 400px;
+    width: auto;
+    height: 90px;
+    text-align: center;
+    font-family: 'Montserrat-SemiBold';
+}
+.submitWrapper{
+    background: #f8f7f7;
+    padding: 20px 50px 20px 50px;
+}
+
+.submitWrapper div{
+    margin: 0;
+    margin-right: auto;
+}
+
+.passwordButton:hover{
+    cursor: pointer;
+}
+
+:global(.hiddenWrapper){
+    transition: height 500ms 500ms, opacity 200ms 0ms;
+    opacity: 0.0;
+    height: 0px;
+    padding: 0;
+    margin-bottom: 0;
+    display: none;
+}
+
+.forgotPasswordContainer{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.forgotPassword a{
+    border-bottom: solid 1px #575756;
+    color: #575756;
+}
+
+.forgotPassword:hover{
+    cursor: pointer;
+}
+
+.currentRoleContainer{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.currentRole{
+    color: #15caaf;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.62px
+}
+
+@media (max-width: 767px) {
+    .formWrapper{
+        padding: 25px;
+    }
+}

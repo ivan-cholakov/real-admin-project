@@ -1,0 +1,46 @@
+.sideMenuContainer .ant-menu {
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sideMenuContainer .ant-layout-sider {
+    height:100%;
+    background:none;
+    /* 60px header and 40px footer. */
+    min-height: 100vh;
+}
+.ant-menu {
+    background:none;
+}
+.ant-menu-item > a {
+    color:#111;
+}
+.sideMenuContainer {
+    /* background-color: #12caaf !important; */
+}
+.sideMenuContainer .ant-menu {
+    width:100%;
+}
+.sideMenuContainer .ant-menu-item {
+    width:100% !important;
+    padding:0px 4px !important;
+}
+.sideMenuContainer .ant-menu-item > a {
+    text-align:center;
+}
+/* styles for expanding container  */
+#root {
+    word-wrap: break-word;
+}
+/* 80px side nav + 30px padding twice on containers  and 200px total width of not collapsed navigation - 90 = 110*/
+/* .biggerRoot {
+    min-width:calc(100% + 200px) !important;
+}
+.biggerRoot .header :nth-child(2) {
+    padding-left:80px !important;
+}
+.biggerRoot .sideMenuContainer .ant-menu-item > a {
+    text-align:left;
+    padding-left:10px;
+} */

@@ -1,0 +1,39 @@
+.screenWrapper {
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    min-height:100vh;
+    background: #6BDDC9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6BDDC9, #6BDDC9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6BDDC9, #6BDDC9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-content: center;
+}
+.formWrapper {
+    width:80%;
+    min-width:300px;
+    max-width:900px;
+    background:#fff;
+    margin:0 auto;
+    padding:20px;
+    border-radius: 20px;
+}
+.formWrapper input, .formWrapper textarea {
+    display:block;
+    margin:0 auto;
+}
+.formWrapper > div {
+    display:block;
+    margin: 0 auto;
+    width:60%;
+}
+.screenHeading {
+    text-align:center;
+    margin:20px;
+    font-size:1.2em;
+    color:#FF851B;
+}
+@media only screen and (max-width: 768px) {
+    .formWrapper > div {
+        width:100%;
+    }
+}

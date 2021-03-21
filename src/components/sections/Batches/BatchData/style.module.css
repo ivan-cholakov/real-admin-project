@@ -1,0 +1,242 @@
+.batchFirstSection {
+    display:flex;
+    flex-direction: row;
+    
+}
+.batchFirstSection .inputContainer {
+    margin-bottom:30px;
+}
+
+.batchFormContainer {
+    flex:1;
+    margin-right:75px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 260px;
+    height: 260px;
+    margin-top: 8.5%;
+}
+.imgContainer img {
+    display:block;
+    margin: 0 auto;
+    max-width: 260px;
+    max-height: 260px;
+    background-color: transparent;
+    transition: all 2s ease-in-out;
+}
+.imgContainer img:hover {
+    transition: all 1.4s ease-in-out;
+}
+
+.batchWrapper {
+    position:relative;
+    padding-top: 40px;
+}
+.inputContainer {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+
+/* .selectContainer{
+    flex:1;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: gray;
+} */
+.btnContainer {
+    flex-direction: column;
+    justify-content: flex-end;
+    display:flex;
+    position:relative;
+    bottom:10px;
+    margin-left:20px;
+}
+.combinedInputContainer {
+    width:220px;
+}
+.fancyInput input {
+    padding:15px;
+    text-align:center;
+    text-transform: uppercase;
+    color:#12caaf;
+    border:none;
+    /* cursor:pointer; */
+    font-weight:bold;
+    border-radius:10px;
+    width:100%;
+    outline: none;
+}
+
+.fancyInput .label {
+    font-size:1em;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+.additionalInfo{
+    margin-top:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.batchInputContainer {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: flex-end;
+    transition: 0.6s;
+}
+.batchInputContainer input {
+    color:#12caaf;
+    transition: 0.6s;
+}
+.batchInputContainer input:hover {
+    transition: 0.6s;
+}
+.combinedInputContainer input {
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.batchIDContainer {
+    width:130px !important;
+}
+.additionalInfo .inputContainer {
+    max-width:230px;
+}
+.inputContainer:not(:last-child) {
+    margin-right:30px;
+}
+.certificateIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-height: 40px;
+}
+.scoreWrapper, .iconWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.scoreWrapper{
+    margin-right: 50px;
+}
+.scoreContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+@media only screen and (max-width: 1200px) {
+    .batchWrapper {
+        flex-direction: row;
+    }
+    .batchIDContainer input {
+        width:100% !important;
+    }
+    .combinedInputContainer {
+        width:100%;
+    }
+    .combinedInputContainer > div {
+        width:100%;
+    }
+    .additionalInfo {
+        flex-wrap:wrap;
+        margin-top:10px;
+        width:400px;
+        margin:0 auto;
+    }
+    .additionalInfo .inputContainer {
+        max-width:unset;
+    }
+    .batchIDContainer {
+        width:100% !important;
+    }
+    .inputContainer:not(:last-child) {
+        margin-right:unset;
+    }
+    .batchFormContainer {
+        margin-right:unset;
+        flex-direction: column;
+        margin-bottom:25px;
+    }
+    .inputContainer {
+        width:400px;
+        margin:10px auto;
+        display:flex;
+    }
+    .selectContainer {
+        width:100%;
+        
+    }
+    .batchFirstSection {
+        flex-direction: column;
+    }
+    .imgContainer {
+        width:40%;
+        margin:0 auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .imgContainer {
+        width:100%;
+        max-width:300px;
+        margin:0 auto;
+    }
+    .additionalInfo {
+        width:250px;
+    }
+    .inputContainer {
+        width:100%;
+        max-width:250px;
+        
+    }
+}
+@media only screen and (max-width: 580px) {
+    
+
+}
+
+@media(max-width: 767px) {
+    .additionalInfo,
+    .inputContainer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .saveBtnContainer {
+        width: 100%;
+        top: 85px;
+    }
+    .inputLabel {
+        margin-bottom: 10px;
+    }
+    .inputContainer, 
+    .datePickerContainer > span {
+        margin-bottom: 25px;
+        max-width: 100%;
+    }
+    .imgContainer {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .batchFormContainer {
+        margin: 0;
+    }
+    .inputLabel {
+        font-size: 13px;
+    }
+}
+
+:global(.ant-input[disabled]) {
+    background-color: #ffffff;
+}

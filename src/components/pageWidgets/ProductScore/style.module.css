@@ -1,0 +1,27 @@
+.bigText{
+    font-size: 35px;
+    letter-spacing: 1.46px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.smallText, .bigText{
+    color: #a7a9ac;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.smallText{
+    font-size: 12.5px;
+    line-height: 13px;
+    letter-spacing: 0.52px;
+    font-weight: normal;
+    max-width: 60px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

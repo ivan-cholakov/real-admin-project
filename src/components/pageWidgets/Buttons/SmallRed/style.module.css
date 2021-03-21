@@ -1,0 +1,24 @@
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 9px 0;
+  border-radius: 20px;
+  border-width: 1.5px;
+  text-transform: uppercase !important;
+  width: 100%;
+  min-width: 130px;
+  border-style: solid;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
+  border-color: #ca1542;
+  color: #ca1542;
+  transition: 0.4s;
+  line-height: 1;
+}
+.btn:hover {
+  background-color: #ca1542;
+  color: #fff;
+  transition: 0.4s;
+}

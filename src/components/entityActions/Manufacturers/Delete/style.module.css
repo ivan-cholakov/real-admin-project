@@ -1,0 +1,17 @@
+.deleteCompanyBtn {
+    color: #fff;
+    text-transform: uppercase;
+    background: #ed3330;
+    width: 100%;
+    padding: 20px!important;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
+    cursor:pointer;
+    transition:all 1s;
+    text-align:center;
+}
+.deleteCompanyBtn:hover {
+    color: #ed3330;
+    background:#f0f0f0;
+}

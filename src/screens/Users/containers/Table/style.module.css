@@ -1,0 +1,33 @@
+:global(.activeIndicator){
+    width: 15px;
+    margin: 0 auto;
+    height: 15px;
+    border: solid 1px #979797;
+    border-radius: 50px;
+    display: block;
+    background-color: #6dd400;
+}
+
+:global(.inactiveIndicator){
+    width: 15px;
+    margin: 0 auto;
+    height: 15px;
+    border: solid 1px #979797;
+    border-radius: 50px;
+    display: block;
+    background-color: #f7b500;
+}
+
+.userAvatar img {
+    max-width: 30px;
+}
+
+.statusLabel{
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,30 @@
+.contentWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.half{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.half:first-child{
+    margin-right:150px;
+}
+@media only screen and (max-width: 1000px) {
+    .contentWrapper {
+        flex-direction: column;
+    }
+    .half{
+        width:300px;
+        margin:0px auto !important;
+    }
+    .half:first-child {
+        margin-bottom:20px !important;
+    }
+}
+@media (max-width: 767px) {
+    .half {
+        width:100%;
+    }
+}

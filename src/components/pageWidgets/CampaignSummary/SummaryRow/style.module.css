@@ -1,0 +1,19 @@
+.rowWrapper {
+    display:flex;
+    flex-direction: row;
+    font-size:16px;
+    margin-bottom:7px;
+    color:rgb(87,87,86);
+}
+.boldTxt{
+    font-weight: bold;
+    display:inline-block;
+    min-width:15px;
+}
+.ruleTxt{
+    color:rgb(87,87,86);
+}
+.dash {
+    display:inline-block;
+    margin-right:5px;
+}

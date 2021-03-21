@@ -1,0 +1,110 @@
+.inputContainer {
+    display:flex;
+    flex-direction: row;
+}
+.rewardsContainer {
+    display:flex;
+    flex-direction: row;
+}
+.description {
+    color:#12caaf;
+    display:flex;
+    position:relative;
+    bottom:10px;
+    right:20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 30%;
+    font-size: 13px;
+    /* margin-left:10px; */
+}
+.inlineDropdown {
+    display:none;
+}
+.notInlineDropdown > div > div:nth-child(2), .inlineDropdown > div > div:nth-child(2){
+    max-width: 80px;
+}
+.inlineDropdown input , .notInlineDropdown input{
+    text-align:center;
+}
+.bubblesContainer {
+    display:flex;
+    flex:1;
+    justify-content: flex-end;
+    flex-direction:row;
+}
+
+.bubblesContainer > div {
+    width:150px;
+    height:150px;
+}
+.bubblesContainer > div:not(:last-child){
+    margin-right:75px;
+}
+.rightPart {
+    flex:1;
+    justify-content: flex-end;
+}
+.leftPart {
+    display:flex;
+    /* flex:1; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inputContainer input{
+    /* min-width:unset !important;
+    width:100px; */
+}
+@media only screen and (max-width: 1200px) {
+    .bubblesContainer > div:not(:last-child){
+        margin-right:30px;
+    }
+    .inlineDropdown {
+        display:block;
+    }
+    .notInlineDropdown {
+        display:none;
+    }
+    .rewardsContainer {
+        flex-direction: column;
+    }
+    .description {
+        justify-content: center;
+        bottom:0px;
+        margin-left: 5px;
+    }
+    .bubblesContainer {
+        margin:0 auto;
+        margin-top:30px;
+
+        justify-content: center;
+    }
+    .inputContainer label {
+        margin-bottom:0px !important;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .inlineDropdown {
+        display:none;
+    }
+    .notInlineDropdown {
+        display:block;
+    }
+    .bubblesContainer > div:not(:last-child){
+        margin-right:20px;
+    }
+
+    .inputContainer label {
+        margin-bottom:20px !important;
+    }
+    .description {
+        margin-left: 0;
+        font-size: 13px;
+        margin-top: 10%;
+    }
+}
+

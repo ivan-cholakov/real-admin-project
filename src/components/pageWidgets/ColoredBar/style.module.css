@@ -1,0 +1,13 @@
+.barWrapper {
+    display:flex;
+    flex-direction: row;
+}
+.barWrapper > div:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.barWrapper > div:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

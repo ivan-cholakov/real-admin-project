@@ -1,0 +1,11 @@
+import { connect } from 'react-redux';
+import Admin from '../..';
+import { changeAdminActive } from '../../../../components/layout/SideNavigation/containers/actions';
+
+const mapDispatchToProps = (dispatch) => ({
+    changeAdminActive: (key) => {
+        dispatch(changeAdminActive(key));
+    }
+});
+
+export default connect(null, mapDispatchToProps)(Admin);

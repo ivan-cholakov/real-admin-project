@@ -1,0 +1,40 @@
+.screenWrapper {
+    width:100%;
+    margin: 0 auto;
+}
+.companyInfo {
+    width:100%;
+}
+.content {
+    min-height:430px;
+    max-width: 1000px;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    margin:0 auto;
+}
+.titleContainer {
+    padding-bottom:25px;
+    width:100%;
+    background:#fff;
+}
+.titleContainer > div >h1 {
+    right:unset !important;
+    text-align:center;
+    margin-bottom:0px !important;
+    font-size: 16px;
+
+}
+.innerContent {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    background: #f8f7f7;
+    border-radius: 15px;
+}
+
+@media(max-width: 767px) {
+    .innerContent {
+        padding: 10%;
+    }
+}

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.container h2 {
+  color: #0ecaaf;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.container p {
+  margin: 1rem;
+}
+
+.saveButton,
+.deleteButton {
+  width: 20rem;
+}

@@ -1,0 +1,23 @@
+.innerContent {
+    max-width:1000px;
+    margin:0 auto;
+}
+.description {
+    color:rgb(224,224,224);
+    font-size:16px;
+    text-align:center;
+    margin-bottom:25px;
+}
+.titleContainer {
+    text-transform: none;
+    text-align: center;
+}
+.titleContainer >h1 {
+    text-align:center;
+    color: #158bca;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 25px;
+}

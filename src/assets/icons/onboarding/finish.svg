@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="25px" viewBox="0 0 31 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 31 0 31 25 0 25"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Onboarding-Company-Account" transform="translate(-1176.000000, -172.000000)">
+            <g id="onboarding-steps" transform="translate(702.000000, 144.000000)">
+                <g id="step-3" transform="translate(449.000000, 0.000000)">
+                    <g id="checkmark" transform="translate(25.000000, 28.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M30.1688033,0.851560133 C29.060541,-0.283853378 27.2674507,-0.283853378 26.1532746,0.851560133 L9.27149507,18.1529839 L4.7804899,14.2002424 C3.68523818,13.0781581 1.91580343,13.0781581 0.820551708,14.2002424 C-0.273517236,15.3211148 -0.273517236,17.1387458 0.820551708,18.2571948 L7.52453309,24.1584368 C8.61978481,25.2805211 10.3939507,25.2805211 11.4892024,24.1584368 C11.6003834,24.0505907 11.6926401,23.9221448 11.7801656,23.7985459 C11.7943589,23.7852166 11.8121006,23.7706756 11.8262939,23.7573463 L30.1688033,4.96546501 C31.2770656,3.82883975 31.2770656,1.9881854 30.1688033,0.851560133" id="Fill-1" fill="#FEFEFE" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

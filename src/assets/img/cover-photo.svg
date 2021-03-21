@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="490px" height="200px" viewBox="0 0 490 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>cover-photo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Users-Drawer-Edit-Mode-Step-1">
+            <g id="cover-photo">
+                <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="490" height="200"></rect>
+                <g id="Group-2" transform="translate(202.000000, 79.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 4.000000)">
+                        <polygon id="Clip-2" points="0 0 86 0 86 39 0 39"></polygon>
+                        <path d="M82.679366,39 L3.32154408,39 C0.561748795,39 -0.99177835,35.702236 0.707963115,33.4468686 L17.2119044,11.4428223 C18.5095565,9.71812959 21.0134767,9.68022426 22.3659592,11.3670116 L36.2928731,28.7466072 L56.8359851,1.32209814 C58.1701907,-0.459452547 60.7837717,-0.44049988 62.0997006,1.37895615 L85.3295006,33.5056219 C86.9744117,35.759094 85.4026077,39 82.679366,39" id="Fill-1" fill="#FFFFFF"></path>
+                    </g>
+                    <ellipse id="Oval" fill="#FFFFFF" cx="31" cy="5.5" rx="6" ry="5.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

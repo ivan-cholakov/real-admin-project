@@ -1,0 +1,51 @@
+.actionsWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.actionsWrapper span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.actionButton{
+    background: #fff;
+    padding: 5px 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 65px;
+    margin: 0 18px;
+}
+
+.inputLabel {
+    font-weight: normal;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    color: #575756;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.actionButton img{
+    width: 35px;
+    max-height: 30px;
+}
+
+.actionButton:global(.active){
+    background: #18c9af;
+}
+
+@media (max-width: 767px) {
+    .actionButton {
+        padding: 5px 8px;
+    }
+    .actionsWrapper {
+        width: fit-content;
+    }
+    .actionsWrapper span {
+        margin: 0 7px;
+    }
+}

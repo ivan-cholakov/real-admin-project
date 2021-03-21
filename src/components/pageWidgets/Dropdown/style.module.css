@@ -1,0 +1,133 @@
+.underlined{
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 8px 5px 8px 15px;
+    transition: 0.6s;
+}
+.underline:hover {
+    border-color: #d0d0d0 !important;
+    box-shadow: 0 0 0 1px #ACACAC;
+    transition: 0.6s;
+}
+.underlined, .normalField {
+    height:40px;
+    padding:9px 15px;
+    line-height: 1.4;
+    cursor: pointer;
+    color: rgb(87,87,86);
+    font-size:16px;
+    transition: 0.6s;
+}
+
+.normalField {
+    background-color:#fff;
+    border:none;
+    border-radius:15px;
+    min-width:175px;
+    transition: 0.6s;
+    line-height: 1.5;
+    letter-spacing: -0.43px;
+    text-overflow: ellipsis;
+    white-space: pre;
+    width: 100%;
+    position: relative;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.underlined, .normalField  {
+    transition: 0.6s;
+}
+.underlined:hover, .normalField:hover  {
+    transition: 0.6s;
+    box-shadow: 0 0 0 1px #ACACAC;
+}
+.dropDownMenu i svg{
+    color: #58595b;
+    width: 13px;
+}
+.dropDownMenu:focus {
+    text-decoration: none;
+}
+.dropDownMenu i{
+    float: right;
+    top: 5px;
+    position: relative;
+}
+.underlined:hover, .dropDownMenu:focus{
+    transition: 0.6s;
+    border-width: 1px;
+}
+.underlined:hover, .normalField:hover { 
+    transition: 0.6s;
+}
+
+.dropdownSubmenu {
+}
+.dropdownSubmenu ul li, .dropdownSubmenu ul li div{
+    color: #58595b;
+    font-size: 0.9em;
+    justify-content: left;
+    align-items: center;
+}
+.dropdownSubmenu ul li div{
+    padding: 4px 18px;
+    box-shadow:none;
+    line-height: 1.7;
+}
+.dropdownSubmenu ul li:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.dropdownSubmenu ul li div:hover{
+    background-color: transparent;
+}
+.dropdownContainer {
+    width:100%;
+    position:relative;
+}
+:global(.ant-dropdown-menu-submenu-title) {
+    padding-top:8px !important;
+    padding-bottom:8px !important;
+    font-size:1em !important;
+}
+.dropdownContainer :global(.ant-dropdown) {
+    width:100%;
+}
+.underlined:hover{
+    cursor:pointer;
+}
+
+.inputLabel {
+    margin-bottom: 20px;
+    display:block;
+    width:100%;
+    color: #575756;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.placeholder{
+    color: #595959;
+}
+
+:global(.tableDropdown) .normalField{
+    padding: 5px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+:global(.tableDropdown) .normalField i{
+    top: 8px;
+}
+
+.grayColor .normalField {
+    background: rgb(248, 247, 247) !important;
+    transition: all 0.6s;
+}
+
+@media (max-width: 767px) {
+    .placeholder{
+        width: 100%;
+    }
+}

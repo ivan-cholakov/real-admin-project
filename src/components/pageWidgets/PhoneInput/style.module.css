@@ -1,0 +1,128 @@
+.textInput :global(.ant-input-group) input {
+    text-align:left;
+    height:40px !important;
+    border-width: 0;
+    width:100%;
+    font-size: 16px;
+    border-right-width: 0 !important;
+    transition: all 0.6s;
+}
+.textInput :global(.ant-input-group){
+    width:100%;
+}
+.textInput :global(.ant-input-group) :global(.ant-select) {
+    min-width: 85px;
+    border-right-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-radius:0 15px 15px 0;
+    width: 100px;
+}
+
+.textInput :global(.ant-input-group) :global(.ant-input){
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.textInput :global(.ant-select-selection){
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    background: #575756 !important;
+    color: #fff;
+    border-right-width: 0 !important;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+.textInput :global(.ant-select-arrow){
+    color: #fff;
+}
+
+.textInput:focus {
+    outline:none !important;
+}
+
+.textInput :global(.ant-select-selection-selected-value){
+    position: relative;
+    top: 4px;
+    padding: 0;
+}
+
+.textInput :global(.ant-select-selection){
+    background-color: #f8f7f7;
+    border-width: 0;
+}
+.textInput :global(.ant-select-selection:hover), .textInput :global(.ant-select-selection:focus){
+    outline: none;
+}
+.inputLabel {
+    font-weight: normal;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #575756;
+    font-size: 16px;
+    line-height: 16px;
+}
+.labelContainer > div{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    color: #a7a9ac;
+    font-size: 9px;
+}
+.tooltip-title {
+    font-size:9px;
+    cursor: help;
+}
+
+.tooltip :global(.ant-tooltip-arrow){
+    display: none;
+}
+.tooltip :global(.ant-tooltip-inner){
+    background-color: #575756;
+    border-radius: 0;
+}
+.labelContainer{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    flex-direction: row;
+}
+.grayColor input {
+    color:#58595b !important;
+}
+.inline {
+    flex-direction: row;
+    margin-bottom:10px;
+    display:flex;
+}
+.inline .inputLabel {
+    display:inline-flex;
+    width:unset;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:5px;
+}
+.inline input {
+    width:unset;
+    margin-right:10px;
+}
+.inputContainer:hover {
+    border-radius:15px;
+    box-shadow: 0 0 0 1px #ACACAC;
+    transition: all 0.6s;
+}
+:global(.ant-input:hover), :global(.ant-input:focus){
+    border-right-width: 0 !important;
+    box-shadow: 0 0 0 1px #ACACAC;
+    transition: 0.6s;
+}
+
+:global(.phoneDropdown .ant-select-dropdown-menu-item:hover), :global(.phoneDropdown .ant-select-dropdown-menu-item-active){
+    background: rgba(0,0,0,0.1);
+    color: #575756;
+}
+

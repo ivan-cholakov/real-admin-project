@@ -1,0 +1,61 @@
+.inputContainer {
+    max-width: 200px;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+.caption {
+    text-align:center;
+    font-size:16px;
+    margin-bottom:20px;
+    font-weight: 500;
+}
+.warningContainer {
+    text-align:center;
+}
+
+.radioContainer > div {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.choosePayment {
+    width:fit-content;
+    margin:0 auto;
+    margin-top: 40px;
+    font-weight: 500;
+    max-width: fit-content;
+}
+
+.choosePayment div {
+    margin-right: 0px !important;
+}
+.btnContainer {
+    margin-top: 20px;
+    width:100%;
+    height: 50px;
+}
+.fieldsContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.connectIcon {
+    position:absolute;
+    left:calc(50% - 125px);
+}
+.connectIcon svg {
+    position:relative;
+    top:20px;
+    height:65px;
+    width:auto;
+}
+.blueStyledButton {
+    background-color: red !important;
+}
+
+
+.topUpButtons > div > div {
+    max-width: 180px;
+    margin: 0 35px;
+}
+

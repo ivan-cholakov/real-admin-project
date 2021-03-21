@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="60px" viewBox="0 0 85 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="85" height="60"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="85" height="60" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="85" height="60" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Batch-File" transform="translate(-1223.000000, -364.000000)">
+            <g id="IMAGE" transform="translate(1072.000000, 294.000000)">
+                <g id="Group-5" transform="translate(151.000000, 70.000000)">
+                    <g id="image-placeholder-grey" transform="translate(17.000000, 17.000000)" fill="#D8D8D8" fill-rule="nonzero">
+                        <g id="Group-3" transform="translate(0.000000, 3.000000)">
+                            <path d="M49.9921748,24 L2.00837549,24 C0.339662062,24 -0.599679932,21.9706068 0.428070721,20.5826884 L10.407198,7.0417368 C11.1918249,5.98038744 12.7058231,5.95706108 13.5236032,6.99508406 L21.9445279,17.6902198 L34.3659445,0.813598855 C35.1726734,-0.282740029 36.7529782,-0.271076849 37.5486562,0.8485884 L51.5945818,20.6188442 C52.5891792,22.0055963 51.6387861,24 49.9921748,24" id="Fill-1"></path>
+                        </g>
+                        <circle id="Oval" cx="18.5" cy="3.5" r="3.5"></circle>
+                    </g>
+                    <g id="url-placeholder">
+                        <g id="Group-8">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Rectangle-Copy" stroke="#D8D8D8" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="2">
+                                <use mask="url(#mask-4)" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,43 @@
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttonContainer:hover{
+    cursor: pointer;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    transition:all 0.4s ease;
+    justify-content: center;
+    margin-left: 5px;
+    font-size: 13.6px;
+}
+.icon svg{
+    width: 20px;
+}
+.small svg {
+    width:20px;
+    transition:all 0.4s ease;
+    color:#158bca;
+}
+.small .title {
+    color:#158bca;
+    margin-left:5px;
+    font-size: 13.6px;
+}
+.small:hover svg, .small:hover .title {
+    color:#111;
+}
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size:0.8em;
+        margin-left:5px;
+    }
+}

@@ -1,0 +1,70 @@
+body .selectClock > div{
+    background-color: #15caaf !important;
+    padding: 0 10px 0 0px;
+    width: 100px;
+}
+.selectIcon{
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    top: -4px;
+    right: 6px;
+    position: relative;
+}
+.selectDropdown{
+
+}
+.selectClock { 
+    display:flex !important;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.selectClock > div {
+    height:40px !important;
+    border-radius:0px !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+
+:global(.ant-input-group-compact) > input {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+:global(.ant-input-group-compact) {
+    /* width:100%; */
+}
+
+.inputContainer > div > div:nth-child(2):hover{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+:global(.selectDropdown .ant-select-dropdown-menu-item:hover), :global(.selectDropdown .ant-select-dropdown-menu-item-active){
+    background: rgba(0,0,0,0.1);
+    color: #575756;
+}
+
+.overview{
+    text-align: center;
+    font-size: 11px;
+    color: #999999;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.groupContainer :global(.ant-select-dropdown-menu-item-active), .groupContainer :global(.ant-select-dropdown-menu-item):hover {
+    background: #bebebe;
+}
+.selectContainer {
+    display:flex !important;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.selectContainer :global(.ant-select-selection-selected-value){
+    color:#fff;
+    font-size:16px;
+    min-width:75px;
+    text-transform:lowercase;
+    position:relative;
+    top:3px;
+    right:5px;
+}

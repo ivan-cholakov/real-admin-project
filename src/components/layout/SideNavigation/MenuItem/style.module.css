@@ -1,0 +1,114 @@
+.navItem {
+    width:100px;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+    font-size:0;
+    display:flex;
+    background:#12caaf;
+    flex-direction:row;
+    justify-content: center;
+    padding:15px 0px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.expandedNavItem {
+    width:230px;
+    padding-left:30px;
+    display:flex;
+    justify-content: flex-start;
+    font-size:0.8em;
+    font-weight:bold;
+    overflow:hidden;
+}
+.navItem > span {
+    display:flex;
+}
+.expandedNavItem > span > .navLabel {
+    display:inline-flex;
+    flex-direction: column;
+    color:#fff;
+    justify-content: center;   
+}
+
+.tooltip {
+    display:none;
+    position:absolute;
+    color:#fff;
+    white-space: nowrap;
+    left:105px;
+    z-index:99999999;
+}
+.collapsed:hover .tooltip {
+    display:block !important;
+}
+.collapsed:hover .tooltipInner {
+    font-size: 12px !important;
+}
+.tooltip .tooltipInner {
+    position:relative;
+    bottom:6px;
+    padding:7px 7px;
+    background-color:rgb(87,87,86);
+}
+.navLabel {
+    padding-left:20px;
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+}
+.navItem svg {
+    width:20px;
+    height:20px;
+    color:#fff;
+}
+.expandedActive, .activeItem {
+    background-color:rgb(12 141 122);
+}
+.expandedNavItem:hover, .navItem:hover {
+    background-color:rgb(12 141 122);
+}
+.expandedNavItem:hover .spacing, .navItem:hover {
+     background-color:rgb(12 141 122);
+}
+.expandedActive:hover, .activeItem:hover {
+    /* background-color:#10bfa6 !important; */
+    background-color:rgba(14, 161, 140, 0.8);
+}
+
+.expandedNavItem > span {
+    flex:1;
+}
+.expandArrow {
+    width:0px;
+    display:none;
+    height:0px;
+    position:relative;
+    transition:all 0.5s ease;
+    top:7px;
+    left:5px;
+    /* overflow:visible; */
+}
+.rotateArrow {
+    transform:rotate(180deg);
+    top: 18px !important;
+    right: 15px !important;
+}
+.expandedNavItem .expandArrow {
+    display:initial;
+    position:relative;
+    right:25px;
+    top:5px;
+    left:unset;
+    z-index:1;
+}
+.navItem:hover .expandArrow {
+    display:initial;
+}
+.expandArrow svg {
+    width:10px;
+    color:#fff;
+    height:10px;
+}
+
+

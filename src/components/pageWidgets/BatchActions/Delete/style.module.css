@@ -1,0 +1,19 @@
+.btnContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.btnContainer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+}
+@media (max-width: 767px) {
+  .btnContainer > div {
+    max-width: 135px;
+  }
+}

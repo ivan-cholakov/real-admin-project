@@ -1,0 +1,149 @@
+.balanceContainer {
+    color:rgb(87,87,86);
+    text-align:center;
+    font-weight:600;
+    font-size:18px;
+}
+.money {
+    font-weight:400;
+}
+.coins > span {
+    display:inline-block;
+    margin-right:10px;
+    font-size:35px;
+}
+.coins {
+    margin-bottom:15px;
+    text-indent: 30px;
+}
+
+.contentContainer {
+    flex:1;
+    padding-top:100px;
+    width:100%;
+    max-width: 600px;
+    padding-bottom:50px;
+    margin:0 auto;
+}
+.line{
+    margin:50px 0px;
+    height:2px;
+    background:#fff;
+    width:100%;
+}
+.cardType {
+    margin-bottom:50px;
+}
+.cardInformation, .cardInformation2{
+    margin-bottom:30px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardInformation2{
+    margin-bottom:50px;
+}
+.cardNumberContainer, .cardName {
+    width: 300px;
+}
+.cardAddress {
+    width:160px;
+}
+.expiryDate {
+    width: 140px
+}
+.securityCode {
+    width: 115px;
+}
+.cardAddress {
+    padding-top:15px;
+    padding-left: 15px;
+}
+ .address {
+    width: 125px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+.address {
+    color:#575756;
+    font-size:11px;
+}
+
+.sectionTitleContainer h1 {
+    right:unset;
+    margin-bottom: 25px;
+}
+.billingInformation, .billingInfo2 {
+    display:flex;
+    flex-direction:row;
+    margin-bottom:25px;
+}
+.billingInformation {
+    justify-content: space-between;
+}
+
+.billingAddress {
+    width:430px;
+}
+.city {
+    width:150px;
+}
+.postCode {
+    width:140px;
+    margin-right:25px;
+}
+.country {
+    width:250px;
+}
+.buttonContainer {
+    margin-top:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.buttonContainer > div {
+    margin:unset;
+}
+.securityCode input[type=number]::-webkit-inner-spin-button, 
+.securityCode input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.cardType label {
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .billingInformation, .billingInfo2 {
+        display: block;
+        margin-bottom:25px;
+    }
+    .billingAddress,
+    .city, .country,
+    .expiryDate,
+    .cardNumberContainer {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .cardInformation, .cardInformation2{
+        margin-bottom: 50px;
+    }
+    .cardName {
+        width: 100%;
+        margin-top: -25px;
+    }
+    .address, .cardAddress {
+        width: 100%;
+    }
+    .cardAddress, .address {
+        padding-top:20px;
+    }
+    .securityCode {
+        width: 90px;
+        margin-top: 20px;
+    }
+
+
+}

@@ -1,0 +1,13 @@
+.container {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.factContainer,
+.answerContainer {
+  margin-bottom: 2rem;
+}
+
+.input {
+  margin-bottom: 2rem;
+}

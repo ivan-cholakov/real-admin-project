@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Group 18</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Add-New-Product" transform="translate(-1222.000000, -1396.000000)">
+            <g id="Group-18" transform="translate(1223.000000, 1396.000000)">
+                <g id="underline" transform="translate(0.000000, 12.000000)" stroke="#575756" stroke-linecap="square">
+                    <path d="M0,1 L9.88244739,1" id="Line"></path>
+                </g>
+                <path d="M4.912,11.36 C1.84,11.36 0,9.584 0,6.32 L0,2.27373675e-13 L2.08,2.27373675e-13 L2.08,6.24 C2.08,8.544 3.12,9.536 4.928,9.536 C6.736,9.536 7.76,8.544 7.76,6.24 L7.76,2.27373675e-13 L9.808,2.27373675e-13 L9.808,6.32 C9.808,9.584 7.968,11.36 4.912,11.36 Z" id="U" fill="#575756" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

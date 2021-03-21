@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  width: 30rem;
+}
+.heading {
+  width: 100%;
+  margin: 2rem;
+}
+
+.content {
+  width: 100%;
+  margin: 2rem;
+}
+
+.save-button,
+.delete-button {
+  width: 20rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.categoriesDropdown {
+  width: 100%;
+}
+
+.upload-photo {
+  width: 100%;
+  height: auto;
+  background-color: #f8f7f7;
+}

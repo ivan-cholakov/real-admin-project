@@ -1,0 +1,92 @@
+.screenWrapper {
+    width:100%;
+}
+.addCompanyBtn {
+    float:right;
+    z-index:3;
+}
+.tableContainer {
+    /* margin-top:50px; */
+}
+.titleButtonContainer, .contentContainer, .boxWithShadow{
+    display: flex;
+    flex-direction: row;
+}
+.boxWithShadow, .titleButtonContainer{
+    justify-content: space-between;
+}
+.titleButtonContainer{
+    align-items: center;
+}
+
+.contentContainer{
+    margin-top: 50px;
+}
+
+.boxWithShadow{
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    min-width: 50%;
+    margin-right: 5%;
+}
+.boxWithShadow h2{
+    color: #15caaf;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.boxWithShadow p{
+    margin-bottom: 10px;
+}
+.boxWithShadow .column, .columnBorder{
+    justify-content: space-around;
+    position: relative;
+}
+.column, .columnBorder{
+    display: flex;
+    flex-direction: column;
+}
+.overviewContent{
+    max-width: 250px;
+}
+.columnContainer{
+    display: flex;
+    flex-direction: row;
+}
+.columnContainer .column > div{
+    margin-bottom: 15px;
+}
+.columnContainer .column div div, .columnContainer .column{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.boxWithShadow .columnBorder:before{
+    width: 1px;
+    height: 156px;
+    bottom: 14px;
+    content: '';
+    display: block;
+    border: solid 1px #ebebeb;
+    position: absolute;
+    left: -27px;
+}
+.blueParagraph{
+    color: #158bca;
+    font-size: 20px;
+    font-weight: bold;
+}
+.blueButton {
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #158bca, #1487c5, #1384bf, #1380ba, #127db5);
+    background-image: linear-gradient(to bottom, #158bca, #1487c5, #1384bf, #1380ba, #127db5);
+    text-align: center;
+    border-radius: 20px;
+    padding: 17px 0;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.blueButton:hover {
+    cursor: pointer;
+}
+

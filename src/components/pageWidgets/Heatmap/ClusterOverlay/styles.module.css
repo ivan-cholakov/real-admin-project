@@ -1,0 +1,12 @@
+.pointCounterWrapper{
+    border-radius:50%;
+    position: absolute;
+    text-align: center;
+}
+.pointCounter {
+    height:100%;
+    display:flex;
+    color:#111;
+    justify-content: center;
+    flex-direction: column;
+}

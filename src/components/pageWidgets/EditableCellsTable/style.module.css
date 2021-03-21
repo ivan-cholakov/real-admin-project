@@ -1,0 +1,65 @@
+.editable-cell {
+    position: relative;
+}
+
+.editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+}
+.deleteIcon{
+    max-width: 30px;
+}
+
+:global(.ant-table-thead) > tr > th{
+    padding: 4px;
+    font-size: 0.8em;
+    color: #bebebe;
+    background: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+:global(.ant-table-thead) > tr > td{
+    border:0 !important;
+}
+td > div :global(.ant-select-selection__rendered){
+    margin-left: 0;
+}
+
+td > div :global(.style_dropDown__LlLgw .ant-select-selection-selected-value){
+    padding-left: 0;
+    text-align: left;
+}
+td > div :global(.ant-form-item-children) textarea{
+    padding: 3px;
+}
+td > div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 115px;
+    position: relative;
+    vertical-align: middle;
+    text-align: left;
+}
+
+td{
+    height: 40px;
+    vertical-align: middle;
+}
+
+
+:global(.ant-table-tbody) tr td{
+    padding: 0;
+}
+
+:global(.ant-table-tbody) > tr:hover:not(:global(.ant-table-expanded-row)) > td{
+    background: #fff;
+}
+
+

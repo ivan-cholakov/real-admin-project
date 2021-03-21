@@ -1,0 +1,36 @@
+.itemWrapper {
+    width:230px;
+    display:none;
+}
+.expanded {
+    display:block;
+    color:#fff;
+    padding:7.5px;
+    padding-left:70px;
+    font-size:0.8em;
+    animation: show 1.5s ease;
+    
+}
+.itemWrapper:hover {
+    cursor:pointer;
+    background-color:rgb(255,255,255,0.1);
+}
+.activeItem {
+    background-color:rgb(0,0,0,0.1);
+    transition: all 0.5s ease-in;
+    
+}
+.activeItem:hover {
+
+    background-color:rgb(255,255,255,0.1);
+    transition: all 0.5s ease-in;
+}
+
+@keyframes :local(show) {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,79 @@
+.componentWrapper {
+    margin: 0;
+    height:100%;
+    background:rgb(248,247,247);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.noImage {
+
+    min-height:200px;
+    background:rgba(0,0,0,0.2);
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.imageContainer img {
+    width:100%;
+    max-height: 200px;
+}
+.mainContent {
+    padding: 50px;
+    background: #f8f7f7;
+}
+.companyInfo {
+    padding: 20px 25px;
+    margin-bottom:23px;
+    background:#fff;
+    border-radius:10px;
+}
+.companyName {
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-bottom:13px;
+}
+.companyInfoRow {
+    margin-bottom:13px;
+    color:rgb(87,87,86);
+    line-height: 1.7;
+}
+.bottom {
+    padding: 50px;
+}
+.actions {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-bottom:65px;
+}
+.actions > div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btnContainer {
+    min-width:200px;
+    margin-right:35px;
+}
+.btnContainer > div {
+    margin-bottom:unset;
+}
+.customerInfo {
+    margin-bottom:26px;
+    text-align:center;
+    color:rgb(21,139,202);
+}
+.openPanel span{
+    color: rgb(87,87,86);
+    cursor:pointer;
+    font-size:1.1em;
+    border-bottom: 1px solid rgb(87,87,86);
+    padding-bottom: 2px;
+}
+.customerNumberContainer {
+    text-align:center;
+}

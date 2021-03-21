@@ -1,0 +1,82 @@
+.pageWrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height:100vh;
+    padding:15px;
+
+    background: rgba(107, 221, 201, 0.7); /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6BDDC9, #6BDDC9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6BDDC9, #6BDDC9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.pageWrapper h1, .pageWrapper h2 {
+    
+    text-align:center;
+}
+.pageWrapper h1 {
+    font-size:1.3em;
+    color:#111;
+    margin-bottom:20px;
+}
+.pageWrapper h2 {
+    font-size:0.9em;
+}
+.pageContent {
+        /* flex:1; */
+        /* display:flex;
+        flex-direction: column;
+        justify-content: center; */
+        width:50%;
+        margin:0 auto;
+        border-radius:20px;
+        background: #fff;
+        padding:70px 20px;
+        filter: drop-shadow(7px 15px 10px rgba(0,0,0,0.3));
+}
+.formContainer {
+    width:80%;
+    margin:0 auto;
+    display:block;
+    min-width:280px;
+}
+.formContainer input {
+    display:block;
+    
+    max-width:400px;
+    margin:10px auto;
+}
+.btn {
+    display:block;
+    width:100%;
+    max-width:400px;
+    border-radius:10px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.hiddenResponse {
+    display:none;
+}
+.successReponse, .errorResponse {
+    text-align:center;
+    margin-top:20px;
+    width:80%;
+    padding:20px;
+    margin:20px auto;
+}
+.successReponse {
+    color: #fff;
+}
+.errorResponse {
+    color: #FF4136;
+}
+.formContainer {
+    text-align:center;
+}
+.formContainer .ant-form-explain {
+    margin-top:10px;
+}
+.invalidToken{
+    font-size:2em;
+    text-align:center;
+    color:#fff;
+}
